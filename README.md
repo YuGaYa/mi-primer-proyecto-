@@ -65,3 +65,8 @@ Las tres causas con más horas en el filtro generan recomendaciones en tarjetas 
 
 ### Ilustración animada
 `js/port-scene.js` dibuja una escena SVG con grúas, camión y buque. Los botones de equipo permiten seleccionar una grúa; los movimientos mostrados proceden del filtro actual. El movimiento es decorativo y no indica conexión en vivo. Se puede pausar y se respeta la preferencia de movimiento reducido del dispositivo.
+
+### Explicaciones, flota visual e interacción por contenedor
+Los KPI muestran qué miden y para qué se usan. La escena permite recoger el contenedor del mismo ID/color, detenerse al sujetarlo y continuar con «Elevar» o «Devolver». Cada grúa conserva su propio estado durante la sesión y los movimientos ilustrados no alteran los KPI históricos.
+
+`js/vessel-gallery.js` asocia una recreación distinta a cada uno de los doce buques. `assets/flota-ilustrativa.png` es una composición de imágenes generadas con IA, mostradas individualmente mediante fondos CSS. No son fotos de los buques ficticios ni evidencia de una terminal real. La galería y el detalle de escala lo indican explícitamente.

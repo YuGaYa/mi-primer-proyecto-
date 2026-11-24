@@ -31,3 +31,8 @@ Pruebas de lógica y DOM simulado superadas. La vista previa sigue fallando por 
 
 ## Ilustración y movimiento
 Solicitud: más ilustraciones llamativas y que se vean activas. Se añade escena vectorial con grúas elevando contenedores, camión en recorrido, buque flotante y agua animada. Los botones de grúa abren su filtro de productividad. El total de movimientos responde a los filtros; la animación es ilustrativa, no reproduce tiempos ni eventos reales. Se incluye pausa persistente y soporte de prefers-reduced-motion. Pruebas de pausa, persistencia y módulos superadas.
+
+## Indicadores explicados y recogida interactiva
+Solicitud: qué es y para qué sirve cada indicador, grúas que se detienen al recoger su contenedor y una imagen por buque. Se añaden explicaciones breves junto a los KPI; galería de doce recreaciones fotográficas generadas con IA, etiquetadas como ilustrativas porque los buques de la muestra son ficticios; imagen del buque en su escala.
+
+La escena usa estados independientes por grúa: listo, bajando, sujeto/detenido, elevando, elevado/detenido y devolviendo. Cada equipo tiene un contenedor asociado por ID y color. Las acciones no modifican los datos de productividad. Las pruebas controlan los temporizadores y verifican la parada al sujetar, la espera de la siguiente orden, el retorno y la conservación de registros históricos.
