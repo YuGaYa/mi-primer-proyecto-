@@ -42,3 +42,10 @@ Solicitud: tocar Q1 y ver cómo busca su contenedor; fotos del buque y cantidad 
 
 ## Referencia de grúa real y cobertura de módulos
 Se cambia la escena principal a un fondo de apariencia fotográfica inspirado en la referencia del estudiante; se superpone la carga interactiva sobre las tres grúas. Se conserva el recorrido automático. Se añade impacto teórico de demoras en movimientos equivalentes al NCR actual, con advertencia de interpretación. Los cinco módulos quedan numerados en navegación y documentados en docs/cumplimiento_modulos.md. Las pruebas verifican la presencia y lógica de cada módulo; no equivalen a una auditoría visual completa ni certifican una terminal real.
+
+## Ilustraciones específicas y relevo de camiones
+Solicitud: no repetir la misma imagen en todos los módulos; ilustrar el resumen ejecutivo y cada causa de demora, mantener buques en su escala y mostrar la carga depositada en un camión que sale y es reemplazado por otro vacío.
+
+Cambios: módulo ejecutivo con imagen de centro de control y recorrido medir/entender/mejorar; fotografías ilustrativas de buques exclusivamente en Escala del buque; escena operativa solo en Productividad por grúa; Demoras sin escena general y con seis tarjetas ilustradas, duración del filtro, clasificación y acción/responsable propuesto. Simulador y plan usan esquemas propios de recursos/comparación y diagnóstico/seguimiento. Los nombres de buques de la muestra son ficticios y sus imágenes permanecen identificadas como recreaciones de IA.
+
+Ciclo ilustrativo: buscar, bajar, sujetar, elevar, trasladar, depositar sobre la plataforma del camión, salir cargado y recibir un camión vacío. Se valida la secuencia con temporizadores controlados y la conservación de datos históricos. Las pruebas verifican que las imágenes de buques no aparezcan en Inicio o Demoras.

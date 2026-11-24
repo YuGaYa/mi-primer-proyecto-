@@ -76,3 +76,12 @@ Tocar el dibujo, el botón Q1/Q2/Q3 o «Iniciar recorrido» ejecuta buscar → b
 
 ### Referencia visual de operación real
 La escena principal usa `assets/operacion-realista.png`, una recreación con IA inspirada en la referencia de grúa STS enviada por el estudiante. Las cargas y controles SVG se superponen a la imagen; no se presenta como fotografía de una terminal identificada ni simulación física certificada. En pantallas pequeñas la escena se desplaza horizontalmente para mantener proporciones. Ver `docs/cumplimiento_modulos.md` para la revisión de los cinco módulos.
+
+### Ilustraciones diferenciadas por módulo
+- Inicio: centro de control y explicación visual de medir, entender y mejorar.
+- Escala del buque: imágenes de buques ficticios, datos y grúas asignadas. Las recreaciones no se presentan como fotos reales de los nombres simulados.
+- Productividad por grúa: escena interactiva de carga. La carga se deposita sobre la plataforma de un camión; sale cargado y llega otro vacío.
+- Demoras: seis ilustraciones por causa, con horas, responsabilidad según registro y acción propuesta. Sin escena general de grúas.
+- Simulador y plan: esquemas específicos del proceso de decisión y seguimiento.
+
+Archivos: `js/module-illustrations.js`, `assets/resumen-ejecutivo.png`, `assets/causas-demora.png`. Las imágenes fueron generadas con IA para el proyecto. No hay conexión en vivo a una terminal.
