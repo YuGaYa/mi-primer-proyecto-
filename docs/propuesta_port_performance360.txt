@@ -1,0 +1,541 @@
+2. Nombre e identidad del sistema
+
+Nombre propuesto: PORT PERFORMANCE 360
+Nombre del módulo individual: CRANE PERFORMANCE
+Descripción: Sistema de monitoreo y análisis de productividad de
+grúas de muelle.
+
+Objetivo general: analizar el rendimiento de las grúas de muelle en
+distintas escalas de buques, turnos y equipos, comparando los resultados
+con una meta de productividad para facilitar la identificación de
+brechas de rendimiento.
+
+Frase guía: “Medir el rendimiento, identificar las brechas y mejorar
+la productividad”.
+
+2.1 Estilo visual
+
+Se busca una interfaz que parezca un sistema profesional de monitoreo de
+operaciones portuarias, pero que sea sencilla y fácil de explicar
+durante una exposición.
+
+● Estilo recomendado: centro de control portuario moderno.
+
+● Colores: azul marino oscuro, naranja industrial, gris y blanco.
+
+● Diseño ordenado, con espacio entre secciones.
+
+● Tarjetas KPI, gráficas claras, tablas compactas y filtros visibles.
+
+● Evitar párrafos largos, exceso de tarjetas y pantallas saturadas.
+
+● Diseño adaptable a computadora y móvil.
+
+● Todo el contenido visible para el usuario debe estar en español,
+salvo siglas y términos técnicos habituales.
+
+● Incluir una nota visible: “Datos simulados con fines académicos”.
+
+3. Planteamiento del problema
+
+La terminal portuaria tiene una meta de productividad para sus grúas de
+muelle. Sin embargo, los resultados de las últimas escalas de buques se
+encuentran por debajo de la meta establecida.
+
+La gerencia necesita conocer cómo se está comportando la productividad
+de cada grúa, qué diferencias existen entre turnos y buques, y si los
+equipos están alcanzando el rendimiento esperado.
+
+El proyecto general simula varias escalas de buques, registra
+movimientos y tiempos de grúa, clasifica las demoras y propone mejoras
+operativas respaldadas por los resultados.
+
+Entre las causas de demora que considera el caso general están:
+
+Demoras atribuibles a la terminal (ejemplos): - Falta de camiones
+internos. - Averías de equipos. - Cambio de turno. - Tapas de escotilla,
+según la causa y responsabilidad operacional que se establezca en los
+datos.
+
+Demoras ajenas a la terminal / non-terminal (ejemplos): -
+Condiciones climáticas. - Solicitudes o instrucciones de la línea
+naviera.
+
+La clasificación definitiva de cada evento debe quedar registrada en la
+base de datos del proyecto. No se debe asumir automáticamente que
+cualquier evento de tapas de escotilla pertenece a una sola categoría
+sin definir el supuesto.
+
+4. Objetivo y alcance del Módulo 2
+
+4.1 Nombre
+
+Módulo 2 — Productividad por grúa / CRANE PERFORMANCE
+
+4.2 Objetivo
+
+Mostrar y comparar los indicadores GMPH, GCR y NCR:
+
+● Por grúa.
+
+● Por turno.
+
+● Por buque.
+
+● Frente a la meta de productividad acordada por el grupo.
+
+El módulo debe permitir aplicar filtros por buque y por turno. Cuando se
+seleccione un filtro, las tarjetas, tablas y gráficas relacionadas deben
+actualizarse de forma consistente.
+
+4.3 Preguntas que debe responder
+
+1. ¿Cuál es el GMPH, GCR y NCR de la operación seleccionada?
+
+2. ¿Qué grúa presenta el mayor y el menor rendimiento?
+
+3. ¿Qué turno presenta mejor o peor productividad?
+
+4. ¿Qué buque registra el menor rendimiento de grúa?
+
+5. ¿Se alcanza la meta de productividad?
+
+6. ¿Cuál es la brecha entre el indicador y la meta?
+
+7. ¿Cómo cambia la lectura al comparar productividad bruta, ajustada
+por demoras non-terminal y neta?
+
+El módulo debe presentar resultados y facilitar su interpretación. El
+análisis detallado de causas y el Pareto de demoras corresponde
+principalmente al Módulo 3.
+
+5. KPI obligatorios del Módulo 2
+
+Las siguientes fórmulas son las proporcionadas por el profesor en la
+guía del proyecto. No cambiar, reinterpretar ni sustituir estas
+fórmulas sin autorización del grupo o del profesor.
+
+5.1 GMPH — Gross Moves Per Hour
+
+Fórmula:
+GMPH = Movimientos ÷ horas brutas de grúa
+
+Unidad: mph (movimientos por hora).
+
+Explicación sencilla: indica cuántos movimientos realiza la grúa por
+cada hora bruta registrada, sin descontar las demoras.
+
+Uso: observar la productividad bruta de la grúa y compararla con la
+meta.
+
+5.2 GCR — Gross Crane Rate
+
+Fórmula:
+GCR = Movimientos ÷ (horas de grúa − demoras non-terminal)
+
+Unidad: mph.
+
+Explicación sencilla: calcula los movimientos por hora después de
+descontar del tiempo de grúa las demoras clasificadas como non-terminal.
+
+Uso: observar el rendimiento excluyendo las demoras externas
+definidas en el registro.
+
+5.3 NCR — Net Crane Rate
+
+Fórmula:
+NCR = Movimientos ÷ (horas de grúa − todas las demoras)
+
+Unidad: mph.
+
+Explicación sencilla: calcula los movimientos por hora después de
+descontar todas las demoras registradas.
+
+Uso: observar la productividad neta de acuerdo con la metodología
+indicada por el profesor.
+
+5.4 Reglas de cálculo y validación
+
+● Usar las fórmulas anteriores exactamente como están definidas.
+
+● Los movimientos y las horas deben corresponder a la misma grúa,
+buque y periodo de análisis.
+
+● Las horas de demora deben estar expresadas en una unidad consistente
+antes de calcular.
+
+● Si los datos de origen están en minutos, convertir minutos a horas
+dividiendo entre 60.
+
+● Evitar dividir entre cero o utilizar denominadores negativos.
+
+● Si el denominador es cero o negativo, mostrar “N/D” o una alerta
+explicativa; no generar un valor engañoso.
+
+● No sumar movimientos de varias grúas y dividirlos entre las horas de
+una sola grúa.
+
+● Al agregar varias grúas, calcular el indicador agregado usando la
+suma de movimientos dividida entre la suma de los denominadores de
+tiempo correspondientes; no promediar de forma simple los
+porcentajes o tasas individuales.
+
+● Mantener separadas las demoras non-terminal y las demoras totales.
+
+● Evitar duplicar una demora en los registros.
+
+● Mostrar la meta de productividad utilizada. La meta debe ser un
+parámetro configurable o una constante claramente identificada,
+acordada por el grupo; no inventar que es una meta oficial de una
+terminal real.
+
+● El dashboard debe indicar si cada KPI está por debajo, cumple o
+supera la meta, de acuerdo con el criterio que acuerde el grupo.
+
+● La relación matemática esperada, cuando se utilizan los mismos
+movimientos y horas coherentes, es GMPH ≤ GCR ≤ NCR. Usar esta
+relación como control de consistencia, no como sustituto de la
+validación de los datos.
+
+6. Diseño funcional del Módulo 2
+
+La pantalla debe ser clara, compacta y fácil de recorrer. Se recomienda
+esta estructura:
+
+A. Encabezado
+
+● Nombre: CRANE PERFORMANCE.
+
+● Subtítulo: “Monitoreo de productividad por grúa, turno y buque”.
+
+● Identificación visible: “Datos simulados”.
+
+● Indicación de la meta vigente.
+
+B. Filtros
+
+Incluir como mínimo:
+
+● Filtro por buque: todos o un buque específico.
+
+● Filtro por turno: todos o un turno específico.
+
+Si la base de datos contiene más de una grúa, permitir comparar o
+seleccionar grúa. Los filtros deben actualizar todos los resultados
+pertinentes.
+
+Incluir una opción para restablecer los filtros.
+
+C. Tarjetas KPI
+
+Mostrar tres tarjetas principales:
+
+1. GMPH.
+
+2. GCR.
+
+3. NCR.
+
+Cada tarjeta debe incluir: - Valor calculado. - Unidad mph. - Meta de
+referencia, si aplica. - Estado visual: debajo de meta, cumple o
+supera. - Una explicación breve o acceso a la fórmula.
+
+No usar números estáticos de ejemplo como si fueran resultados reales.
+Los valores deben calcularse desde los datos simulados.
+
+D. Comparación por grúa
+
+Mostrar una gráfica de barras que compare el indicador seleccionado por
+grúa y la meta.
+
+Debe permitir identificar rápidamente: - Grúa con mayor productividad. -
+Grúa con menor productividad. - Grúas por debajo de la meta.
+
+E. Comparación por turno
+
+Mostrar una gráfica o tabla sencilla para comparar GMPH, GCR y NCR por
+turno.
+
+Los nombres de los turnos deben ser consistentes en toda la aplicación
+(por ejemplo: Turno A, Turno B y Turno C), según los supuestos acordados
+por el grupo.
+
+F. Comparación por buque
+
+Mostrar una tabla o gráfica compacta con los indicadores por buque y
+grúa. Debe permitir reconocer escalas con productividad baja.
+
+G. Hallazgo automático
+
+Incluir un pequeño bloque de texto generado a partir de los datos
+filtrados. Ejemplo de estilo:
+
+“En la selección actual, la grúa STS-02 presenta el menor GMPH. Su
+resultado se encuentra por debajo de la meta. Se recomienda revisar los
+registros de demoras asociados en el Módulo 3”.
+
+El texto debe generarse con los datos reales del escenario simulado y no
+repetir siempre una conclusión fija.
+
+H. Fórmulas y definiciones
+
+Incluir un área desplegable, ventana informativa o ficha breve para
+explicar GMPH, GCR y NCR. Mantener la explicación corta y comprensible.
+
+7. Contexto general de los cinco módulos del proyecto
+
+El dashboard grupal contempla cinco módulos. Esta descripción sirve para
+mantener coherencia e integración, aunque el desarrollo solicitado aquí
+se concentra en el Módulo 2.
+
+Módulo 1 — Escala del buque
+
+Muestra la línea de tiempo de la escala con: - ATA. - ATB. - Commence. -
+Complete. - ATD. - Pre-PCAT. - Post-PCAT. - Berth Productivity (BP). -
+Vessel Operation Rate (VOR).
+
+Debe permitir comprender los tiempos de la escala y servir como fuente
+de datos generales para los análisis de productividad.
+
+Módulo 2 — Productividad por grúa (alcance de este documento)
+
+Muestra: - GMPH. - GCR. - NCR. - Comparación por grúa, turno y buque. -
+Comparación con la meta. - Filtros por buque y turno.
+
+Módulo 3 — Demoras
+
+Muestra un Pareto de demoras, separando terminal y non-terminal. Debe
+indicar horas y movimientos perdidos por causa. Sus registros alimentan
+los cálculos GCR y NCR del Módulo 2.
+
+Módulo 4 — Simulador
+
+Permite cambiar: - Número de camiones internos por grúa. - Duración del
+cambio de turno. - Número de grúas.
+
+Estima el nuevo GMPH y el tiempo de escala. Los supuestos utilizados
+deben estar explicados y ser consistentes con los datos del proyecto.
+
+Módulo 5 — Mejora
+
+Presenta un resumen tipo A3: - Problema. - Causa principal. -
+Propuesta. - KPI y meta. - Beneficio esperado en horas de buque.
+
+La mejora debe apoyarse en los resultados del análisis, no en una
+recomendación arbitraria.
+
+8. Datos simulados y estructura recomendada
+
+La guía del profesor solicita simular entre 10 y 20 escalas de buques
+con sus tiempos y movimientos por grúa, y crear registros de demoras por
+grúa con causa, tipo, inicio y fin.
+
+Para el Módulo 2, cada registro de productividad debería poder
+asociarse, como mínimo, con:
+
+● Identificador de escala.
+
+● Nombre o código de buque.
+
+● Identificador de grúa (por ejemplo, STS-01, STS-02).
+
+● Turno.
+
+● Movimientos realizados.
+
+● Horas brutas de grúa.
+
+● Horas de demoras non-terminal.
+
+● Horas de todas las demoras.
+
+● GMPH calculado.
+
+● GCR calculado.
+
+● NCR calculado.
+
+Los campos calculados deben derivarse de los datos base, no escribirse
+manualmente como cifras independientes.
+
+8.1 Relación con el registro de demoras
+
+El registro general de demoras debe incluir: - ID del evento. - ID de
+escala. - ID de grúa. - Causa. - Tipo: terminal o non-terminal. -
+Fecha/hora de inicio. - Fecha/hora de fin. - Duración calculada.
+
+Las horas non-terminal utilizadas por GCR deben provenir de los eventos
+clasificados como non-terminal. Las horas totales utilizadas por NCR
+deben provenir de todas las demoras aplicables al mismo registro de grúa
+y periodo.
+
+Si una demora cruza turnos o periodos de análisis, definir cómo se
+asigna o divide para no duplicar su duración. Documentar el supuesto.
+
+8.2 Supuestos
+
+Los datos son académicos y simulados. Deben ser creíbles, consistentes y
+explicados en el README. No presentar los resultados como datos reales
+de una terminal.
+
+Si se crea un generador de datos, utilizar una semilla fija para que los
+datos sean reproducibles. Si el repositorio ya tiene una base de datos
+común del equipo, reutilizarla y no crear otra base incompatible.
+
+9. Requisitos técnicos del proyecto general
+
+De acuerdo con la guía del profesor:
+
+● Dashboard HTML interactivo.
+
+● Debe abrir con doble clic en index.html en Chrome o Edge, sin
+instalar un servidor.
+
+● Debe tener al menos cuatro módulos funcionales en el producto
+grupal.
+
+● Debe incluir filtros y controles que actualicen KPI y gráficas.
+
+● Debe mostrar al menos seis KPI, cada uno con meta y señal visual
+cuando no se cumple.
+
+● Puede utilizar Chart.js mediante CDN o una copia local.
+
+● Los datos simulados deben estar identificados.
+
+● Los datos deben ser creíbles, reproducibles y justificados.
+
+● El proyecto debe integrarse al repositorio GitHub del grupo.
+
+Para el trabajo individual de este documento: implementar el Módulo
+2 de forma modular y compatible con el dashboard general. No eliminar ni
+reemplazar módulos de otros integrantes.
+
+10. Instrucciones de trabajo para Codex
+
+Antes de escribir código:
+
+1. Revisar los archivos y carpetas existentes del repositorio.
+
+2. Identificar el punto de entrada (index.html) y la arquitectura
+actual.
+
+3. Revisar si ya existen datos compartidos, estilos, componentes,
+funciones o gráficas.
+
+4. Proponer un plan breve de implementación del Módulo 2.
+
+5. Indicar qué archivos se crearán o modificarán.
+
+6. Esperar aprobación antes de hacer cambios importantes si hay riesgo
+de afectar trabajo de otros integrantes.
+
+Durante el desarrollo:
+
+● Trabajar por etapas pequeñas.
+
+● Reutilizar la estructura y convenciones existentes.
+
+● No sobrescribir archivos de otros módulos.
+
+● Mantener el código legible y comentado donde ayude a comprender las
+fórmulas.
+
+● Separar datos, cálculos, presentación y lógica de filtros cuando la
+estructura del repositorio lo permita.
+
+● No inventar fórmulas ni alterar las fórmulas del profesor.
+
+● No presentar datos ficticios como reales.
+
+● No agregar funciones o pantallas innecesarias.
+
+● Mantener todo en español, con siglas técnicas originales.
+
+● No incluir claves, contraseñas ni tokens.
+
+Después de cada etapa:
+
+1. Explicar qué cambió.
+
+2. Indicar cómo probarlo.
+
+3. Verificar los cálculos con al menos un ejemplo manual.
+
+4. Comprobar que los filtros actualizan las tarjetas y gráficas.
+
+5. Revisar errores de consola y funcionamiento en navegador.
+
+6. Resumir cualquier supuesto añadido.
+
+11. Verificación manual requerida
+
+La guía del profesor solicita verificar manualmente tres KPI. Para este
+módulo, verificar GMPH, GCR y NCR con un registro concreto.
+
+Ejemplo de verificación matemática (valores didácticos, no datos
+definitivos):
+
+● Movimientos: 450.
+
+● Horas brutas de grúa: 18.
+
+● Demoras non-terminal: 2 horas.
+
+● Todas las demoras: 4 horas.
+
+Cálculos: - GMPH = 450 ÷ 18 = 25 mph. - GCR = 450 ÷ (18 − 2) = 28.125
+mph. - NCR = 450 ÷ (18 − 4) = 32.142857… mph.
+
+El dashboard debe mostrar los valores con un redondeo consistente (por
+ejemplo, dos decimales), conservando precisión interna para cálculos
+posteriores.
+
+Este ejemplo es solo para comprobar las fórmulas. No debe confundirse
+con la base de datos final de 10 a 20 escalas.
+
+12. Entregables esperados para el Módulo 2
+
+● Módulo 2 funcional e integrado al proyecto.
+
+● Filtros funcionales por buque y turno.
+
+● Tarjetas de GMPH, GCR y NCR.
+
+● Comparación por grúa, turno y buque.
+
+● Meta de productividad visible y estados de cumplimiento.
+
+● Fichas de KPI con fórmula, unidad, meta, fuente del dato y decisión
+que permite tomar.
+
+● Datos simulados conectados a los cálculos.
+
+● Verificación manual de los tres indicadores.
+
+● Explicación breve de los supuestos utilizados.
+
+13. Criterios de calidad
+
+El módulo estará bien desarrollado si:
+
+● Se entiende en pocos segundos qué mide.
+
+● No está saturado de texto ni elementos visuales.
+
+● Los tres KPI usan exactamente las fórmulas de la guía.
+
+● Los resultados cambian correctamente al filtrar buque y turno.
+
+● Se puede comparar grúas, turnos y buques.
+
+● La meta y las alertas son visibles.
+
+● Los datos están identificados como simulados.
+
+● Los resultados se pueden verificar manualmente.
+
+● La interfaz se integra visualmente con los demás módulos.
+
+● La persona que presenta puede explicar qué significa cada indicador
+y qué decisión ayuda a tomar

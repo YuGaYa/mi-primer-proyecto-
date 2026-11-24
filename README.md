@@ -52,3 +52,10 @@ Pruebas: `node docs-check.js` verifica cálculos y datos. `node tests/dashboard.
 
 ### Antes de ofrecerlo como producto operativo
 Esta versión es una demostración funcional y explicable. Integración con TOS, ingreso y validación de datos operativos reales, autenticación/roles, auditoría, almacenamiento compartido, acuerdos de disponibilidad y calibración del modelo requieren desarrollo y validación específicos con el puerto. No se simulan como capacidades disponibles.
+
+## PORT PERFORMANCE 360 · Módulo 2
+La identidad visual y la pantalla de Productividad por Grúa siguen la propuesta del grupo: azul marino, naranja industrial, fondo portuario ilustrativo y tarjetas GMPH/GCR/NCR. Se abre inicialmente este módulo. Ver `docs/modulo2_port_performance.md` para uso, fórmulas, supuestos y archivos de integración.
+
+Meta común configurable del módulo 2: 30 mph inicialmente, guardada en este navegador. No es una meta oficial. Los porcentajes se calculan, no se toman de la imagen de referencia. La base de datos y los otros módulos siguen disponibles. Las metas específicas de otras pantallas se conservan.
+
+Ejecutar `node tests/crane-performance.cjs` para verificar agregación, filtros cruzados, rankings, N/D, porcentaje frente a meta y los tres KPI del ejemplo 450 movimientos / 18 horas.
