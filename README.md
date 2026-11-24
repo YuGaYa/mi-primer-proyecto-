@@ -32,3 +32,23 @@ Fuente de fórmulas: José Abel Diez Cubilla, UMIP, “Proyecto semestral: Dashb
 
 ## Equipo (completar antes de entregar)
 Integrantes: pendiente de completar por el grupo. Grupo, fecha y terminal de referencia: pendientes. Cada integrante debe realizar sus propios commits y revisiones; no se ha simulado participación. Este es un primer entregable funcional, no evidencia de hitos, participación ni defensa ya realizados.
+
+
+## Versión 2 · Módulos orientados a decisiones
+- Resumen ejecutivo: diagnóstico en lenguaje sencillo y enlaces a la siguiente acción.
+- Buques y escalas: línea de tiempo, preparación/operación/liberación y selección de una escala desde la tabla.
+- Rendimiento de grúas: estados según metas configurables y diagnóstico de velocidad frente a paradas.
+- Causas de las demoras: Pareto, responsables sugeridos, recomendaciones por causa y filtro de eventos.
+- Comparar mejoras: escenarios predefinidos, controles interactivos, flota necesaria, ahorro de tiempo y balance económico parcial.
+- Plan de acción: cuatro tareas con responsable, fecha, estado y notas editables; persistencia local, exportación JSON e impresión.
+- Datos y ayuda: diccionario, metas editables, descarga de muestra y respaldo/restauración de configuración y plan.
+
+### Persistencia y economía
+Metas, escenario y plan usan localStorage. No se comparten entre usuarios ni dispositivos. Si el navegador bloquea almacenamiento, usar la descarga de respaldo. Abrir archivos mediante file:// puede tener comportamiento de almacenamiento distinto según el navegador; el dashboard se puede consultar igualmente.
+
+El balance económico es parcial: horas de buque recuperadas × valor/hora menos el cambio de camión-horas × costo/hora. Incluye la diferencia de duración de ambas operaciones y la flota simultánea. No incluye costos de grúas adicionales ni implementación, y el beneficio del tiempo puede corresponder a la naviera. No equivale a ahorro contractual o ganancia de la terminal.
+
+Pruebas: `node docs-check.js` verifica cálculos y datos. `node tests/dashboard.cjs` verifica renderizado JavaScript de los siete módulos y handlers en un DOM simulado; no sustituye una prueba visual de navegador. La vista previa del entorno no estuvo disponible durante esta revisión por timeout del relay.
+
+### Antes de ofrecerlo como producto operativo
+Esta versión es una demostración funcional y explicable. Integración con TOS, ingreso y validación de datos operativos reales, autenticación/roles, auditoría, almacenamiento compartido, acuerdos de disponibilidad y calibración del modelo requieren desarrollo y validación específicos con el puerto. No se simulan como capacidades disponibles.
