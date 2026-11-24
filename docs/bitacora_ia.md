@@ -21,3 +21,10 @@ Verificación: siete módulos renderizan, filtros y controles recalculan, base d
 Solicitud: adoptar la identidad y el alcance del texto entregado y la imagen de referencia. Trabajo concentrado en Módulo 2 sin eliminar los restantes. Se separan cálculos/validación y presentación, se reutilizan datos comunes y se añade meta configurable, filtros por grúa, comparación por turno/buque y hallazgos calculados. Se corrige la inconsistencia de la referencia entre KPI y porcentaje de cumplimiento: todos los porcentajes reales se derivan del indicador seleccionado y la meta.
 
 Imagen portuaria: fondo generado con IA, exclusivamente ilustrativo. Pruebas incluyen ejemplo manual didáctico, agregación ponderada, filtros sin coincidencia, denominadores inválidos y conservación de otros módulos.
+
+## Revisión de color y síntesis
+Solicitud: más colores, solo información necesaria y soluciones visibles. Se incorporan tarjetas azules, verdes, naranjas y violetas; se compactan explicaciones y resumen; las fechas se agrupan en un control desplegable. Los datos y fórmulas permanecen en desplegables.
+
+Nuevo js/solutions.js: prioriza las tres causas de mayor duración dentro del filtro y muestra acciones, responsable y métrica de seguimiento. Transporte interno y relevo permiten cargar una alternativa en el simulador; las otras causas enlazan al plan sin simular beneficios no modelados. Las horas de demora no se presentan como ahorro garantizado. Se conservan la muestra, las fórmulas y los otros módulos.
+
+Pruebas de lógica y DOM simulado superadas. La vista previa sigue fallando por timeout de relay; no se afirma revisión visual completa.

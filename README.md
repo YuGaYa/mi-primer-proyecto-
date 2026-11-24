@@ -59,3 +59,6 @@ La identidad visual y la pantalla de Productividad por Grúa siguen la propuesta
 Meta común configurable del módulo 2: 30 mph inicialmente, guardada en este navegador. No es una meta oficial. Los porcentajes se calculan, no se toman de la imagen de referencia. La base de datos y los otros módulos siguen disponibles. Las metas específicas de otras pantallas se conservan.
 
 Ejecutar `node tests/crane-performance.cjs` para verificar agregación, filtros cruzados, rankings, N/D, porcentaje frente a meta y los tres KPI del ejemplo 450 movimientos / 18 horas.
+
+### Soluciones visibles y diseño de color
+Las tres causas con más horas en el filtro generan recomendaciones en tarjetas de colores (`js/solutions.js`). «Comparar esta mejora» carga 6 camiones/45 minutos para transporte o 4 camiones/15 minutos para relevo, ambos con 3 grúas. El resto enlaza al plan de acción. Las horas históricas de demora no son una promesa de ahorro. Responsables y seguimiento están disponibles al desplegar cada solución.
