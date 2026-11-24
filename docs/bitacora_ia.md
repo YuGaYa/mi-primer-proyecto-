@@ -28,3 +28,6 @@ Solicitud: más colores, solo información necesaria y soluciones visibles. Se i
 Nuevo js/solutions.js: prioriza las tres causas de mayor duración dentro del filtro y muestra acciones, responsable y métrica de seguimiento. Transporte interno y relevo permiten cargar una alternativa en el simulador; las otras causas enlazan al plan sin simular beneficios no modelados. Las horas de demora no se presentan como ahorro garantizado. Se conservan la muestra, las fórmulas y los otros módulos.
 
 Pruebas de lógica y DOM simulado superadas. La vista previa sigue fallando por timeout de relay; no se afirma revisión visual completa.
+
+## Ilustración y movimiento
+Solicitud: más ilustraciones llamativas y que se vean activas. Se añade escena vectorial con grúas elevando contenedores, camión en recorrido, buque flotante y agua animada. Los botones de grúa abren su filtro de productividad. El total de movimientos responde a los filtros; la animación es ilustrativa, no reproduce tiempos ni eventos reales. Se incluye pausa persistente y soporte de prefers-reduced-motion. Pruebas de pausa, persistencia y módulos superadas.

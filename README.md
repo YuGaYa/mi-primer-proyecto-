@@ -62,3 +62,6 @@ Ejecutar `node tests/crane-performance.cjs` para verificar agregación, filtros 
 
 ### Soluciones visibles y diseño de color
 Las tres causas con más horas en el filtro generan recomendaciones en tarjetas de colores (`js/solutions.js`). «Comparar esta mejora» carga 6 camiones/45 minutos para transporte o 4 camiones/15 minutos para relevo, ambos con 3 grúas. El resto enlaza al plan de acción. Las horas históricas de demora no son una promesa de ahorro. Responsables y seguimiento están disponibles al desplegar cada solución.
+
+### Ilustración animada
+`js/port-scene.js` dibuja una escena SVG con grúas, camión y buque. Los botones de equipo permiten seleccionar una grúa; los movimientos mostrados proceden del filtro actual. El movimiento es decorativo y no indica conexión en vivo. Se puede pausar y se respeta la preferencia de movimiento reducido del dispositivo.
