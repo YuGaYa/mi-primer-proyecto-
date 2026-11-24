@@ -70,3 +70,6 @@ Las tres causas con más horas en el filtro generan recomendaciones en tarjetas 
 Los KPI muestran qué miden y para qué se usan. La escena permite recoger el contenedor del mismo ID/color, detenerse al sujetarlo y continuar con «Elevar» o «Devolver». Cada grúa conserva su propio estado durante la sesión y los movimientos ilustrados no alteran los KPI históricos.
 
 `js/vessel-gallery.js` asocia una recreación distinta a cada uno de los doce buques. `assets/flota-ilustrativa.png` es una composición de imágenes generadas con IA, mostradas individualmente mediante fondos CSS. No son fotos de los buques ficticios ni evidencia de una terminal real. La galería y el detalle de escala lo indican explícitamente.
+
+### Recorrido automático de Q1, Q2 y Q3
+Tocar el dibujo, el botón Q1/Q2/Q3 o «Iniciar recorrido» ejecuta buscar → bajar → sujetar → elevar → trasladar → depositar → completar. No requiere pulsar cada etapa. El ciclo finalizado se puede repetir. Los nombres Q1/Q2/Q3 son las etiquetas visuales de QC-01/QC-02/QC-03. Junto al buque se muestran la imagen ilustrativa y el conteo real de registros de grúas asignadas en la muestra (3 por escala).
