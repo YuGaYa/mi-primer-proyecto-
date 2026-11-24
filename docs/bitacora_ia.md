@@ -52,3 +52,6 @@ Ciclo ilustrativo: buscar, bajar, sujetar, elevar, trasladar, depositar sobre la
 
 ## Fechas útiles, detalle operativo y diagnóstico por grúa
 Se corrige el rango fijo que dejaba enero sin registros. El modo de demostración genera datos deterministas por período con aviso explícito, manteniendo separados datos simulados y reales. Se incorporan tamaños simulados y 2–6 grúas por escala, expediente del buque con recursos y carga, nombres completos de KPI, diagnóstico de la principal demora por equipo con seguimiento desarrollado y gráfico de Inicio con nombres, metas y brechas legibles. El simulador obtiene un fondo ilustrativo propio y el modelo base se adapta a la dotación de cada buque. Verificación de enero 1–8 y pruebas de fórmulas y módulos superadas.
+
+## Comentarios del encabezado de Escala del buque
+Se añade una ilustración vectorial propia de buque, muelle, grúa y tiempo al encabezado de este módulo. Se elimina el botón «Exportar registros CSV» y su manejador de inicialización. El mock de interfaz devuelve null para el botón ausente, para comprobar que la navegación sigue iniciándose sin él. Comprobaciones de módulos superadas.
