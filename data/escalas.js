@@ -2,160 +2,127 @@ window.ESCALAS = [
   {
     "id": "ESC-001",
     "name": "Pacific Aurora",
+    "vesselIndex": 0,
+    "sizeClass": "Alimentador",
+    "capacityTEU": 2500,
+    "lengthMeters": 185,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
     "ata": "2026-10-01T04:00:00.000Z",
-    "atb": "2026-10-01T05:58:03.723Z",
-    "commence": "2026-10-01T07:10:46.222Z",
-    "complete": "2026-10-02T03:39:05.669Z",
-    "atd": "2026-10-02T04:48:22.231Z",
+    "atb": "2026-10-01T06:01:59.877Z",
+    "commence": "2026-10-01T07:03:43.362Z",
+    "complete": "2026-10-02T08:21:59.190Z",
+    "atd": "2026-10-02T09:13:45.036Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
         "moves": 407,
-        "net": 12.245024910960394,
+        "net": 11.680910032210877,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 3.0617886303225528,
-            "start": "2026-10-01T07:10:46.222Z",
-            "end": "2026-10-01T10:14:28.662Z"
+            "hours": 4.2312175063021,
+            "id": "2026-10-01-QC1-E1",
+            "start": "2026-10-01T07:03:43.362Z",
+            "end": "2026-10-01T11:17:35.745Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.4977575057186186,
-            "start": "2026-10-01T10:14:28.662Z",
-            "end": "2026-10-01T10:44:20.589Z"
+            "hours": 0.33140715472544136,
+            "id": "2026-10-01-QC1-E2",
+            "start": "2026-10-01T11:17:35.745Z",
+            "end": "2026-10-01T11:37:28.811Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.7619845898356288,
-            "start": "2026-10-01T10:44:20.589Z",
-            "end": "2026-10-01T11:30:03.733Z"
+            "hours": 0.8750127437944429,
+            "id": "2026-10-01-QC1-E3",
+            "start": "2026-10-01T11:37:28.811Z",
+            "end": "2026-10-01T12:29:58.857Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.47051846692338584,
-            "start": "2026-10-01T11:30:03.733Z",
-            "end": "2026-10-01T11:58:17.600Z"
+            "hours": 0.49100549829912055,
+            "id": "2026-10-01-QC1-E4",
+            "start": "2026-10-01T12:29:58.857Z",
+            "end": "2026-10-01T12:59:26.477Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8707664569793268,
-            "start": "2026-10-01T11:58:17.600Z",
-            "end": "2026-10-01T12:50:32.359Z"
+            "hours": 0.2794059203550801,
+            "id": "2026-10-01-QC1-E5",
+            "start": "2026-10-01T12:59:26.477Z",
+            "end": "2026-10-01T13:16:12.338Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3239794554468244,
-            "start": "2026-10-01T12:50:32.359Z",
-            "end": "2026-10-01T13:09:58.685Z"
+            "hours": 0.4315895417507224,
+            "id": "2026-10-01-QC1-E6",
+            "start": "2026-10-01T13:16:12.338Z",
+            "end": "2026-10-01T13:42:06.060Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 447,
-        "net": 15.34585271436332,
+        "moves": 554,
+        "net": 17.125749469017446,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.174958645948209,
-            "start": "2026-10-01T07:10:46.222Z",
-            "end": "2026-10-01T09:21:16.074Z"
+            "hours": 3.0770399823081083,
+            "id": "2026-10-01-QC2-E1",
+            "start": "2026-10-01T07:03:43.362Z",
+            "end": "2026-10-01T10:08:20.706Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6946197363920509,
-            "start": "2026-10-01T09:21:16.074Z",
-            "end": "2026-10-01T10:02:56.705Z"
+            "hours": 0.9075945382573202,
+            "id": "2026-10-01-QC2-E2",
+            "start": "2026-10-01T10:08:20.706Z",
+            "end": "2026-10-01T11:02:48.047Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.8028374148067087,
-            "start": "2026-10-01T10:02:56.705Z",
-            "end": "2026-10-01T10:51:06.919Z"
+            "hours": 1.5318910817807592,
+            "id": "2026-10-01-QC2-E3",
+            "start": "2026-10-01T11:02:48.047Z",
+            "end": "2026-10-01T12:34:42.854Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.5447609602473675,
-            "start": "2026-10-01T10:51:06.919Z",
-            "end": "2026-10-01T11:23:48.059Z"
+            "hours": 0.3033388258031474,
+            "id": "2026-10-01-QC2-E4",
+            "start": "2026-10-01T12:34:42.854Z",
+            "end": "2026-10-01T12:52:54.874Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.5714465980185195,
-            "start": "2026-10-01T11:23:48.059Z",
-            "end": "2026-10-01T11:58:05.267Z"
+            "hours": 1.6606662390766662,
+            "id": "2026-10-01-QC2-E5",
+            "start": "2026-10-01T12:52:54.874Z",
+            "end": "2026-10-01T14:32:33.273Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3375922820996493,
-            "start": "2026-10-01T11:58:05.267Z",
-            "end": "2026-10-01T12:18:20.599Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 443,
-        "net": 13.158641602573736,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.668053048313595,
-            "start": "2026-10-01T07:10:46.222Z",
-            "end": "2026-10-01T09:50:51.213Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.5650430751778185,
-            "start": "2026-10-01T09:50:51.213Z",
-            "end": "2026-10-01T10:24:45.368Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.7494913810398429,
-            "start": "2026-10-01T10:24:45.368Z",
-            "end": "2026-10-01T11:09:43.537Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.5413330641575157,
-            "start": "2026-10-01T11:09:43.537Z",
-            "end": "2026-10-01T11:42:12.336Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.8252120530931278,
-            "start": "2026-10-01T11:42:12.336Z",
-            "end": "2026-10-01T12:31:43.100Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2964957374241203,
-            "start": "2026-10-01T12:31:43.100Z",
-            "end": "2026-10-01T12:49:30.485Z"
+            "hours": 0.6981163593430838,
+            "id": "2026-10-01-QC2-E6",
+            "start": "2026-10-01T14:32:33.273Z",
+            "end": "2026-10-01T15:14:26.492Z"
           }
         ]
       }
@@ -163,547 +130,72 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-002",
-    "name": "Istmo Express",
-    "ata": "2026-10-03T04:00:00.000Z",
-    "atb": "2026-10-03T06:48:08.562Z",
-    "commence": "2026-10-03T07:38:56.889Z",
-    "complete": "2026-10-04T06:06:41.511Z",
-    "atd": "2026-10-04T07:00:16.971Z",
-    "trucks": 4,
-    "cranes": [
-      {
-        "id": "QC-01",
-        "shift": "Día",
-        "moves": 385,
-        "net": 13.125273099195148,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.3250834620557725,
-            "start": "2026-10-03T07:38:56.889Z",
-            "end": "2026-10-03T09:58:27.190Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6969072825741023,
-            "start": "2026-10-03T09:58:27.190Z",
-            "end": "2026-10-03T10:40:16.056Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.7325185463763773,
-            "start": "2026-10-03T10:40:16.056Z",
-            "end": "2026-10-03T11:24:13.123Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.48752396160271017,
-            "start": "2026-10-03T11:24:13.123Z",
-            "end": "2026-10-03T11:53:28.209Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.6902100002393126,
-            "start": "2026-10-03T11:53:28.209Z",
-            "end": "2026-10-03T12:34:52.965Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2913415244920179,
-            "start": "2026-10-03T12:34:52.965Z",
-            "end": "2026-10-03T12:52:21.795Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-02",
-        "shift": "Noche",
-        "moves": 580,
-        "net": 17.47649254924902,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 1.8055749949999154,
-            "start": "2026-10-03T07:38:56.889Z",
-            "end": "2026-10-03T09:27:16.959Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.737437006412074,
-            "start": "2026-10-03T09:27:16.959Z",
-            "end": "2026-10-03T10:11:31.733Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 1.0301375460810958,
-            "start": "2026-10-03T10:11:31.733Z",
-            "end": "2026-10-03T11:13:20.228Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.5202657099580392,
-            "start": "2026-10-03T11:13:20.228Z",
-            "end": "2026-10-03T11:44:33.184Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.6323636159300804,
-            "start": "2026-10-03T11:44:33.184Z",
-            "end": "2026-10-03T12:22:29.693Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.26012338529806583,
-            "start": "2026-10-03T12:22:29.693Z",
-            "end": "2026-10-03T12:38:06.137Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 419,
-        "net": 14.25290067153975,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.0606603282503784,
-            "start": "2026-10-03T07:38:56.889Z",
-            "end": "2026-10-03T09:42:35.267Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.7168759008776395,
-            "start": "2026-10-03T09:42:35.267Z",
-            "end": "2026-10-03T10:25:36.020Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 1.0398213722743093,
-            "start": "2026-10-03T10:25:36.020Z",
-            "end": "2026-10-03T11:27:59.377Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.5056628392776474,
-            "start": "2026-10-03T11:27:59.377Z",
-            "end": "2026-10-03T11:58:19.763Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.7117166251316664,
-            "start": "2026-10-03T11:58:19.763Z",
-            "end": "2026-10-03T12:41:01.943Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.306255358303897,
-            "start": "2026-10-03T12:41:01.943Z",
-            "end": "2026-10-03T12:59:24.462Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ESC-003",
     "name": "Mar Caribe",
-    "ata": "2026-10-05T04:00:00.000Z",
-    "atb": "2026-10-05T05:59:30.421Z",
-    "commence": "2026-10-05T07:17:08.852Z",
-    "complete": "2026-10-06T09:04:57.458Z",
-    "atd": "2026-10-06T10:12:40.428Z",
+    "vesselIndex": 2,
+    "sizeClass": "Post-Panamax",
+    "capacityTEU": 10000,
+    "lengthMeters": 310,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-03T04:00:00.000Z",
+    "atb": "2026-10-03T06:02:05.458Z",
+    "commence": "2026-10-03T07:14:42.010Z",
+    "complete": "2026-10-04T09:01:54.628Z",
+    "atd": "2026-10-04T09:51:56.069Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 488,
-        "net": 15.60824489748007,
+        "moves": 374,
+        "net": 12.290869757387894,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.430547077092342,
-            "start": "2026-10-05T07:17:08.852Z",
-            "end": "2026-10-05T09:42:58.821Z"
+            "hours": 2.164636657734834,
+            "id": "2026-10-03-QC1-E1",
+            "start": "2026-10-03T07:14:42.010Z",
+            "end": "2026-10-03T09:24:34.702Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.7746237815916538,
-            "start": "2026-10-05T09:42:58.821Z",
-            "end": "2026-10-05T10:29:27.467Z"
+            "hours": 1.1184605075200724,
+            "id": "2026-10-03-QC1-E2",
+            "start": "2026-10-03T09:24:34.702Z",
+            "end": "2026-10-03T10:31:41.160Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.8917305296752601,
-            "start": "2026-10-05T10:29:27.467Z",
-            "end": "2026-10-05T11:22:57.697Z"
+            "hours": 0.7186046778211264,
+            "id": "2026-10-03-QC1-E3",
+            "start": "2026-10-03T10:31:41.160Z",
+            "end": "2026-10-03T11:14:48.137Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.5507742480840534,
-            "start": "2026-10-05T11:22:57.697Z",
-            "end": "2026-10-05T11:56:00.484Z"
+            "hours": 0.6930840845400834,
+            "id": "2026-10-03-QC1-E4",
+            "start": "2026-10-03T11:14:48.137Z",
+            "end": "2026-10-03T11:56:23.240Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6665575011679902,
-            "start": "2026-10-05T11:56:00.484Z",
-            "end": "2026-10-05T12:36:00.091Z"
+            "hours": 0.213216549618027,
+            "id": "2026-10-03-QC1-E5",
+            "start": "2026-10-03T11:56:23.240Z",
+            "end": "2026-10-03T12:09:10.819Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.37876294182613496,
-            "start": "2026-10-05T12:36:00.091Z",
-            "end": "2026-10-05T12:58:43.638Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-02",
-        "shift": "Noche",
-        "moves": 397,
-        "net": 12.803221143819354,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 1.9905480582965538,
-            "start": "2026-10-05T07:17:08.852Z",
-            "end": "2026-10-05T09:16:34.825Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.5666011273115873,
-            "start": "2026-10-05T09:16:34.825Z",
-            "end": "2026-10-05T09:50:34.589Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.7107046502176672,
-            "start": "2026-10-05T09:50:34.589Z",
-            "end": "2026-10-05T10:33:13.126Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.39977217311970886,
-            "start": "2026-10-05T10:33:13.126Z",
-            "end": "2026-10-05T10:57:12.305Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.9061954654240979,
-            "start": "2026-10-05T10:57:12.305Z",
-            "end": "2026-10-05T11:51:34.609Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2598143980465829,
-            "start": "2026-10-05T11:51:34.609Z",
-            "end": "2026-10-05T12:07:09.941Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 605,
-        "net": 19.69433212603397,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.91900573100429,
-            "start": "2026-10-05T07:17:08.852Z",
-            "end": "2026-10-05T10:12:17.272Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.568440450131893,
-            "start": "2026-10-05T10:12:17.272Z",
-            "end": "2026-10-05T10:46:23.658Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.9754004328045993,
-            "start": "2026-10-05T10:46:23.658Z",
-            "end": "2026-10-05T11:44:55.100Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.4735274297650903,
-            "start": "2026-10-05T11:44:55.100Z",
-            "end": "2026-10-05T12:13:19.798Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.8621901804069056,
-            "start": "2026-10-05T12:13:19.798Z",
-            "end": "2026-10-05T13:05:03.683Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.3039387228526174,
-            "start": "2026-10-05T13:05:03.683Z",
-            "end": "2026-10-05T13:23:17.862Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ESC-004",
-    "name": "Ocean Atlas",
-    "ata": "2026-10-07T04:00:00.000Z",
-    "atb": "2026-10-07T06:19:56.520Z",
-    "commence": "2026-10-07T07:06:11.264Z",
-    "complete": "2026-10-08T03:10:18.938Z",
-    "atd": "2026-10-08T04:10:56.637Z",
-    "trucks": 4,
-    "cranes": [
-      {
-        "id": "QC-01",
-        "shift": "Día",
-        "moves": 361,
-        "net": 12.159983572123787,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.913170022657141,
-            "start": "2026-10-07T07:06:11.264Z",
-            "end": "2026-10-07T10:00:58.676Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6446556808892637,
-            "start": "2026-10-07T10:00:58.676Z",
-            "end": "2026-10-07T10:39:39.437Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.9036944532766937,
-            "start": "2026-10-07T10:39:39.437Z",
-            "end": "2026-10-07T11:33:52.737Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.37574058624450113,
-            "start": "2026-10-07T11:33:52.737Z",
-            "end": "2026-10-07T11:56:25.403Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.7981946282368152,
-            "start": "2026-10-07T11:56:25.403Z",
-            "end": "2026-10-07T12:44:18.904Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2540204715589061,
-            "start": "2026-10-07T12:44:18.904Z",
-            "end": "2026-10-07T12:59:33.377Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-02",
-        "shift": "Noche",
-        "moves": 487,
-        "net": 15.469784889253996,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 1.82096726144664,
-            "start": "2026-10-07T07:06:11.264Z",
-            "end": "2026-10-07T08:55:26.746Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.5723907426092772,
-            "start": "2026-10-07T08:55:26.746Z",
-            "end": "2026-10-07T09:29:47.353Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.9097102960571646,
-            "start": "2026-10-07T09:29:47.353Z",
-            "end": "2026-10-07T10:24:22.310Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.43609266786370426,
-            "start": "2026-10-07T10:24:22.310Z",
-            "end": "2026-10-07T10:50:32.244Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.5863147138711065,
-            "start": "2026-10-07T10:50:32.244Z",
-            "end": "2026-10-07T11:25:42.977Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2735377937788144,
-            "start": "2026-10-07T11:25:42.977Z",
-            "end": "2026-10-07T11:42:07.713Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 403,
-        "net": 13.274705579491057,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 3.15028541884385,
-            "start": "2026-10-07T07:06:11.264Z",
-            "end": "2026-10-07T10:15:12.292Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6458167246822267,
-            "start": "2026-10-07T10:15:12.292Z",
-            "end": "2026-10-07T10:53:57.232Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 1.0810602562502025,
-            "start": "2026-10-07T10:53:57.232Z",
-            "end": "2026-10-07T11:58:49.049Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.5823378261411563,
-            "start": "2026-10-07T11:58:49.049Z",
-            "end": "2026-10-07T12:33:45.465Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.6172291999589651,
-            "start": "2026-10-07T12:33:45.465Z",
-            "end": "2026-10-07T13:10:47.490Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.25423296219203617,
-            "start": "2026-10-07T13:10:47.490Z",
-            "end": "2026-10-07T13:26:02.729Z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ESC-005",
-    "name": "Bahía Azul",
-    "ata": "2026-10-09T04:00:00.000Z",
-    "atb": "2026-10-09T06:48:22.789Z",
-    "commence": "2026-10-09T07:52:08.607Z",
-    "complete": "2026-10-10T07:14:05.759Z",
-    "atd": "2026-10-10T08:32:08.252Z",
-    "trucks": 4,
-    "cranes": [
-      {
-        "id": "QC-01",
-        "shift": "Día",
-        "moves": 558,
-        "net": 17.533822597540812,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 3.0555069457041095,
-            "start": "2026-10-09T07:52:08.607Z",
-            "end": "2026-10-09T10:55:28.432Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6126960222981869,
-            "start": "2026-10-09T10:55:28.432Z",
-            "end": "2026-10-09T11:32:14.138Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 0.7525005999486893,
-            "start": "2026-10-09T11:32:14.138Z",
-            "end": "2026-10-09T12:17:23.140Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.6013851879164576,
-            "start": "2026-10-09T12:17:23.140Z",
-            "end": "2026-10-09T12:53:28.127Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.49103184693958607,
-            "start": "2026-10-09T12:53:28.127Z",
-            "end": "2026-10-09T13:22:55.841Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.31893242706544694,
-            "start": "2026-10-09T13:22:55.841Z",
-            "end": "2026-10-09T13:42:03.998Z"
+            "hours": 0.48553481862096154,
+            "id": "2026-10-03-QC1-E6",
+            "start": "2026-10-03T12:09:10.819Z",
+            "end": "2026-10-03T12:38:18.744Z"
           }
         ]
       },
@@ -711,99 +203,778 @@ window.ESCALAS = [
         "id": "QC-02",
         "shift": "Noche",
         "moves": 599,
-        "net": 17.807326563128818,
+        "net": 17.365787872554414,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.2425959148677066,
-            "start": "2026-10-09T07:52:08.607Z",
-            "end": "2026-10-09T10:06:41.952Z"
+            "hours": 2.739432564206631,
+            "id": "2026-10-03-QC2-E1",
+            "start": "2026-10-03T07:14:42.010Z",
+            "end": "2026-10-03T09:59:03.967Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6766313108615577,
-            "start": "2026-10-09T10:06:41.952Z",
-            "end": "2026-10-09T10:47:17.825Z"
+            "hours": 0.4857021702591503,
+            "id": "2026-10-03-QC2-E2",
+            "start": "2026-10-03T09:59:03.967Z",
+            "end": "2026-10-03T10:28:12.495Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.9628271743189543,
-            "start": "2026-10-09T10:47:17.825Z",
-            "end": "2026-10-09T11:45:04.003Z"
+            "hours": 0.5188297340476502,
+            "id": "2026-10-03-QC2-E3",
+            "start": "2026-10-03T10:28:12.495Z",
+            "end": "2026-10-03T10:59:20.282Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.5219870205968618,
-            "start": "2026-10-09T11:45:04.003Z",
-            "end": "2026-10-09T12:16:23.156Z"
+            "hours": 0.5279018820986551,
+            "id": "2026-10-03-QC2-E4",
+            "start": "2026-10-03T10:59:20.282Z",
+            "end": "2026-10-03T11:31:00.729Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8627911366289481,
-            "start": "2026-10-09T12:16:23.156Z",
-            "end": "2026-10-09T13:08:09.204Z"
+            "hours": 0.600395539865871,
+            "id": "2026-10-03-QC2-E5",
+            "start": "2026-10-03T11:31:00.729Z",
+            "end": "2026-10-03T12:07:02.153Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.24679107793606817,
-            "start": "2026-10-09T13:08:09.204Z",
-            "end": "2026-10-09T13:22:57.652Z"
+            "hours": 0.2558717244211788,
+            "id": "2026-10-03-QC2-E6",
+            "start": "2026-10-03T12:07:02.153Z",
+            "end": "2026-10-03T12:22:23.291Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 524,
-        "net": 16.959024458613147,
+        "moves": 577,
+        "net": 18.297265467767705,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 1.9728673464851454,
-            "start": "2026-10-09T07:52:08.607Z",
-            "end": "2026-10-09T09:50:30.930Z"
+            "hours": 2.8396604817225692,
+            "id": "2026-10-03-QC3-E1",
+            "start": "2026-10-03T07:14:42.010Z",
+            "end": "2026-10-03T10:05:04.788Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5697624350152909,
-            "start": "2026-10-09T09:50:30.930Z",
-            "end": "2026-10-09T10:24:42.074Z"
+            "hours": 1.4281102454410515,
+            "id": "2026-10-03-QC3-E2",
+            "start": "2026-10-03T10:05:04.788Z",
+            "end": "2026-10-03T11:30:45.985Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.2368804957251995,
-            "start": "2026-10-09T10:24:42.074Z",
-            "end": "2026-10-09T11:38:54.844Z"
+            "hours": 1.4422337460856138,
+            "id": "2026-10-03-QC3-E3",
+            "start": "2026-10-03T11:30:45.985Z",
+            "end": "2026-10-03T12:57:18.026Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.52439388576895,
-            "start": "2026-10-09T11:38:54.844Z",
-            "end": "2026-10-09T12:10:22.662Z"
+            "hours": 0.4363979433654957,
+            "id": "2026-10-03-QC3-E4",
+            "start": "2026-10-03T12:57:18.026Z",
+            "end": "2026-10-03T13:23:29.059Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.5649419346591458,
-            "start": "2026-10-09T12:10:22.662Z",
-            "end": "2026-10-09T12:44:16.453Z"
+            "hours": 0.5002850097680975,
+            "id": "2026-10-03-QC3-E5",
+            "start": "2026-10-03T13:23:29.059Z",
+            "end": "2026-10-03T13:53:30.085Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3398301699478179,
-            "start": "2026-10-09T12:44:16.453Z",
-            "end": "2026-10-09T13:04:39.842Z"
+            "hours": 0.842885462955342,
+            "id": "2026-10-03-QC3-E6",
+            "start": "2026-10-03T13:53:30.085Z",
+            "end": "2026-10-03T14:44:04.473Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 511,
+        "net": 17.43919799323336,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.8776274758066325,
+            "id": "2026-10-03-QC4-E1",
+            "start": "2026-10-03T07:14:42.010Z",
+            "end": "2026-10-03T09:07:21.469Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.5287741980576066,
+            "id": "2026-10-03-QC4-E2",
+            "start": "2026-10-03T09:07:21.469Z",
+            "end": "2026-10-03T09:39:05.056Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.740876274624746,
+            "id": "2026-10-03-QC4-E3",
+            "start": "2026-10-03T09:39:05.056Z",
+            "end": "2026-10-03T10:23:32.211Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.5105683093095312,
+            "id": "2026-10-03-QC4-E4",
+            "start": "2026-10-03T10:23:32.211Z",
+            "end": "2026-10-03T10:54:10.257Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.3350103561112061,
+            "id": "2026-10-03-QC4-E5",
+            "start": "2026-10-03T10:54:10.257Z",
+            "end": "2026-10-03T11:14:16.294Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.9044895276137738,
+            "id": "2026-10-03-QC4-E6",
+            "start": "2026-10-03T11:14:16.294Z",
+            "end": "2026-10-03T12:08:32.456Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ESC-003",
+    "name": "Canal Voyager",
+    "vesselIndex": 5,
+    "sizeClass": "Panamax",
+    "capacityTEU": 6000,
+    "lengthMeters": 260,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-06T04:00:00.000Z",
+    "atb": "2026-10-06T06:02:13.829Z",
+    "commence": "2026-10-06T07:31:09.982Z",
+    "complete": "2026-10-07T08:19:25.774Z",
+    "atd": "2026-10-07T09:55:16.937Z",
+    "trucks": 4,
+    "cranes": [
+      {
+        "id": "QC-01",
+        "shift": "Día",
+        "moves": 406,
+        "net": 13.178410115944233,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.422256420631076,
+            "id": "2026-10-06-QC1-E1",
+            "start": "2026-10-06T07:31:09.982Z",
+            "end": "2026-10-06T08:56:30.105Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.5059744623368447,
+            "id": "2026-10-06-QC1-E2",
+            "start": "2026-10-06T08:56:30.105Z",
+            "end": "2026-10-06T10:26:51.613Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.9659495017207858,
+            "id": "2026-10-06-QC1-E3",
+            "start": "2026-10-06T10:26:51.613Z",
+            "end": "2026-10-06T11:24:49.031Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.4340283482623883,
+            "id": "2026-10-06-QC1-E4",
+            "start": "2026-10-06T11:24:49.031Z",
+            "end": "2026-10-06T11:50:51.533Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.0205755827104712,
+            "id": "2026-10-06-QC1-E5",
+            "start": "2026-10-06T11:50:51.533Z",
+            "end": "2026-10-06T12:52:05.606Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.7518130988154434,
+            "id": "2026-10-06-QC1-E6",
+            "start": "2026-10-06T12:52:05.606Z",
+            "end": "2026-10-06T13:37:12.133Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-02",
+        "shift": "Noche",
+        "moves": 545,
+        "net": 17.747039887830642,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 3.0917512054877436,
+            "id": "2026-10-06-QC2-E1",
+            "start": "2026-10-06T07:31:09.982Z",
+            "end": "2026-10-06T10:36:40.286Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.0246478528696668,
+            "id": "2026-10-06-QC2-E2",
+            "start": "2026-10-06T10:36:40.286Z",
+            "end": "2026-10-06T11:38:09.019Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.9503989156251129,
+            "id": "2026-10-06-QC2-E3",
+            "start": "2026-10-06T11:38:09.019Z",
+            "end": "2026-10-06T12:35:10.455Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 1.2164786524790896,
+            "id": "2026-10-06-QC2-E4",
+            "start": "2026-10-06T12:35:10.455Z",
+            "end": "2026-10-06T13:48:09.778Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.4138345311289489,
+            "id": "2026-10-06-QC2-E5",
+            "start": "2026-10-06T13:48:09.778Z",
+            "end": "2026-10-06T14:12:59.582Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.3602356703702451,
+            "id": "2026-10-06-QC2-E6",
+            "start": "2026-10-06T14:12:59.582Z",
+            "end": "2026-10-06T14:34:36.431Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-03",
+        "shift": "Día",
+        "moves": 419,
+        "net": 14.025364751892745,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.1215147350436196,
+            "id": "2026-10-06-QC3-E1",
+            "start": "2026-10-06T07:31:09.982Z",
+            "end": "2026-10-06T09:38:27.435Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.615787883023121,
+            "id": "2026-10-06-QC3-E2",
+            "start": "2026-10-06T09:38:27.435Z",
+            "end": "2026-10-06T11:15:24.271Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.0145770053014689,
+            "id": "2026-10-06-QC3-E3",
+            "start": "2026-10-06T11:15:24.271Z",
+            "end": "2026-10-06T12:16:16.749Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.8381800288064902,
+            "id": "2026-10-06-QC3-E4",
+            "start": "2026-10-06T12:16:16.749Z",
+            "end": "2026-10-06T13:06:34.197Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.517229114400198,
+            "id": "2026-10-06-QC3-E5",
+            "start": "2026-10-06T13:06:34.197Z",
+            "end": "2026-10-06T14:37:36.222Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.38186189585289937,
+            "id": "2026-10-06-QC3-E6",
+            "start": "2026-10-06T14:37:36.222Z",
+            "end": "2026-10-06T15:00:30.924Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ESC-004",
+    "name": "Marea Norte",
+    "vesselIndex": 8,
+    "sizeClass": "Post-Panamax",
+    "capacityTEU": 10000,
+    "lengthMeters": 310,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-09T04:00:00.000Z",
+    "atb": "2026-10-09T06:02:22.200Z",
+    "commence": "2026-10-09T06:47:37.954Z",
+    "complete": "2026-10-10T06:20:59.840Z",
+    "atd": "2026-10-10T07:00:00.121Z",
+    "trucks": 4,
+    "cranes": [
+      {
+        "id": "QC-01",
+        "shift": "Día",
+        "moves": 438,
+        "net": 14.044385883257457,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.8395992677760533,
+            "id": "2026-10-09-QC1-E1",
+            "start": "2026-10-09T06:47:37.954Z",
+            "end": "2026-10-09T08:38:00.511Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.4266685070328925,
+            "id": "2026-10-09-QC1-E2",
+            "start": "2026-10-09T08:38:00.511Z",
+            "end": "2026-10-09T09:03:36.518Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.1913199069867133,
+            "id": "2026-10-09-QC1-E3",
+            "start": "2026-10-09T09:03:36.518Z",
+            "end": "2026-10-09T10:15:05.269Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.9900346182484505,
+            "id": "2026-10-09-QC1-E4",
+            "start": "2026-10-09T10:15:05.269Z",
+            "end": "2026-10-09T11:14:29.394Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.3312798650264166,
+            "id": "2026-10-09-QC1-E5",
+            "start": "2026-10-09T11:14:29.394Z",
+            "end": "2026-10-09T11:34:22.002Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.6081034388922296,
+            "id": "2026-10-09-QC1-E6",
+            "start": "2026-10-09T11:34:22.002Z",
+            "end": "2026-10-09T12:10:51.174Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-02",
+        "shift": "Noche",
+        "moves": 614,
+        "net": 18.09843508879007,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.8229948923362707,
+            "id": "2026-10-09-QC2-E1",
+            "start": "2026-10-09T06:47:37.954Z",
+            "end": "2026-10-09T08:37:00.735Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.829728266278032,
+            "id": "2026-10-09-QC2-E2",
+            "start": "2026-10-09T08:37:00.735Z",
+            "end": "2026-10-09T09:26:47.757Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.9227502770563906,
+            "id": "2026-10-09-QC2-E3",
+            "start": "2026-10-09T09:26:47.757Z",
+            "end": "2026-10-09T10:22:09.658Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.6264535021423381,
+            "id": "2026-10-09-QC2-E4",
+            "start": "2026-10-09T10:22:09.658Z",
+            "end": "2026-10-09T10:59:44.891Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.5750723498629435,
+            "id": "2026-10-09-QC2-E5",
+            "start": "2026-10-09T10:59:44.891Z",
+            "end": "2026-10-09T11:34:15.151Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.4378434145857506,
+            "id": "2026-10-09-QC2-E6",
+            "start": "2026-10-09T11:34:15.151Z",
+            "end": "2026-10-09T12:00:31.387Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-03",
+        "shift": "Día",
+        "moves": 501,
+        "net": 17.757063232382762,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.5039640064709183,
+            "id": "2026-10-09-QC3-E1",
+            "start": "2026-10-09T06:47:37.954Z",
+            "end": "2026-10-09T08:17:52.224Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.9245054583071277,
+            "id": "2026-10-09-QC3-E2",
+            "start": "2026-10-09T08:17:52.224Z",
+            "end": "2026-10-09T09:13:20.444Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.53360043028461,
+            "id": "2026-10-09-QC3-E3",
+            "start": "2026-10-09T09:13:20.444Z",
+            "end": "2026-10-09T09:45:21.405Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 1.003972138612847,
+            "id": "2026-10-09-QC3-E4",
+            "start": "2026-10-09T09:45:21.405Z",
+            "end": "2026-10-09T10:45:35.705Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.7898489039156606,
+            "id": "2026-10-09-QC3-E5",
+            "start": "2026-10-09T10:45:35.705Z",
+            "end": "2026-10-09T11:32:59.161Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.9636223846682606,
+            "id": "2026-10-09-QC3-E6",
+            "start": "2026-10-09T11:32:59.161Z",
+            "end": "2026-10-09T12:30:48.202Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 585,
+        "net": 17.3760901520894,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 3.224170710350809,
+            "id": "2026-10-09-QC4-E1",
+            "start": "2026-10-09T06:47:37.954Z",
+            "end": "2026-10-09T10:01:04.968Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.0958963885220643,
+            "id": "2026-10-09-QC4-E2",
+            "start": "2026-10-09T10:01:04.968Z",
+            "end": "2026-10-09T11:06:50.195Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.4786661082586952,
+            "id": "2026-10-09-QC4-E3",
+            "start": "2026-10-09T11:06:50.195Z",
+            "end": "2026-10-09T11:35:33.393Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.7787655115823049,
+            "id": "2026-10-09-QC4-E4",
+            "start": "2026-10-09T11:35:33.393Z",
+            "end": "2026-10-09T12:22:16.949Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.4393337042559204,
+            "id": "2026-10-09-QC4-E5",
+            "start": "2026-10-09T12:22:16.949Z",
+            "end": "2026-10-09T12:48:38.550Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.16315688964611308,
+            "id": "2026-10-09-QC4-E6",
+            "start": "2026-10-09T12:48:38.550Z",
+            "end": "2026-10-09T12:58:25.915Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ESC-005",
+    "name": "Estrella del Sur",
+    "vesselIndex": 10,
+    "sizeClass": "Panamax",
+    "capacityTEU": 6000,
+    "lengthMeters": 260,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-11T04:00:00.000Z",
+    "atb": "2026-10-11T06:02:27.781Z",
+    "commence": "2026-10-11T06:58:36.602Z",
+    "complete": "2026-10-12T08:59:52.399Z",
+    "atd": "2026-10-12T09:31:01.417Z",
+    "trucks": 4,
+    "cranes": [
+      {
+        "id": "QC-01",
+        "shift": "Día",
+        "moves": 495,
+        "net": 14.656784861058412,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.4791105243097817,
+            "id": "2026-10-11-QC1-E1",
+            "start": "2026-10-11T06:58:36.602Z",
+            "end": "2026-10-11T09:27:21.400Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.4071646508965858,
+            "id": "2026-10-11-QC1-E2",
+            "start": "2026-10-11T09:27:21.400Z",
+            "end": "2026-10-11T10:51:47.192Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.0374959798807422,
+            "id": "2026-10-11-QC1-E3",
+            "start": "2026-10-11T10:51:47.192Z",
+            "end": "2026-10-11T11:54:02.178Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.8141867317157357,
+            "id": "2026-10-11-QC1-E4",
+            "start": "2026-10-11T11:54:02.178Z",
+            "end": "2026-10-11T12:42:53.250Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.44541684286850364,
+            "id": "2026-10-11-QC1-E5",
+            "start": "2026-10-11T12:42:53.250Z",
+            "end": "2026-10-11T13:09:36.751Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.6358705755361692,
+            "id": "2026-10-11-QC1-E6",
+            "start": "2026-10-11T13:09:36.751Z",
+            "end": "2026-10-11T13:47:45.885Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-02",
+        "shift": "Noche",
+        "moves": 533,
+        "net": 18.335214732516555,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 3.468833181644273,
+            "id": "2026-10-11-QC2-E1",
+            "start": "2026-10-11T06:58:36.602Z",
+            "end": "2026-10-11T10:26:44.401Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.4871668240108603,
+            "id": "2026-10-11-QC2-E2",
+            "start": "2026-10-11T10:26:44.401Z",
+            "end": "2026-10-11T10:55:58.202Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.4320785109041243,
+            "id": "2026-10-11-QC2-E3",
+            "start": "2026-10-11T10:55:58.202Z",
+            "end": "2026-10-11T12:21:53.684Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.9709876190135147,
+            "id": "2026-10-11-QC2-E4",
+            "start": "2026-10-11T12:21:53.684Z",
+            "end": "2026-10-11T13:20:09.240Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.717422580383094,
+            "id": "2026-10-11-QC2-E5",
+            "start": "2026-10-11T13:20:09.240Z",
+            "end": "2026-10-11T14:03:11.961Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.6093514783026025,
+            "id": "2026-10-11-QC2-E6",
+            "start": "2026-10-11T14:03:11.961Z",
+            "end": "2026-10-11T14:39:45.626Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-03",
+        "shift": "Día",
+        "moves": 360,
+        "net": 12.22802096085424,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 5.339340410117513,
+            "id": "2026-10-11-QC3-E1",
+            "start": "2026-10-11T06:58:36.602Z",
+            "end": "2026-10-11T12:18:58.227Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.4169971244459685,
+            "id": "2026-10-11-QC3-E2",
+            "start": "2026-10-11T12:18:58.227Z",
+            "end": "2026-10-11T13:43:59.417Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.531233567016771,
+            "id": "2026-10-11-QC3-E3",
+            "start": "2026-10-11T13:43:59.417Z",
+            "end": "2026-10-11T15:15:51.858Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.7755326244633968,
+            "id": "2026-10-11-QC3-E4",
+            "start": "2026-10-11T15:15:51.858Z",
+            "end": "2026-10-11T16:02:23.775Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.4961776077432499,
+            "id": "2026-10-11-QC3-E5",
+            "start": "2026-10-11T16:02:23.775Z",
+            "end": "2026-10-11T16:32:10.014Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.7094994775578667,
+            "id": "2026-10-11-QC3-E6",
+            "start": "2026-10-11T16:32:10.014Z",
+            "end": "2026-10-11T17:14:44.213Z"
           }
         ]
       }
@@ -811,161 +982,184 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-006",
-    "name": "Canal Voyager",
-    "ata": "2026-10-11T04:00:00.000Z",
-    "atb": "2026-10-11T05:24:32.533Z",
-    "commence": "2026-10-11T06:33:46.680Z",
-    "complete": "2026-10-12T08:33:30.445Z",
-    "atd": "2026-10-12T09:12:06.280Z",
+    "name": "Istmo Express",
+    "vesselIndex": 1,
+    "sizeClass": "Panamax",
+    "capacityTEU": 6000,
+    "lengthMeters": 260,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-14T04:00:00.000Z",
+    "atb": "2026-10-14T06:02:36.152Z",
+    "commence": "2026-10-14T07:15:04.573Z",
+    "complete": "2026-10-15T11:03:19.124Z",
+    "atd": "2026-10-15T12:28:02.854Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 468,
-        "net": 15.34946173938017,
+        "moves": 531,
+        "net": 15.548306899875588,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.239255990833044,
-            "start": "2026-10-11T06:33:46.680Z",
-            "end": "2026-10-11T08:48:08.001Z"
+            "hours": 3.0762567112132477,
+            "id": "2026-10-14-QC1-E1",
+            "start": "2026-10-14T07:15:04.573Z",
+            "end": "2026-10-14T10:19:39.098Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5837383996602147,
-            "start": "2026-10-11T08:48:08.001Z",
-            "end": "2026-10-11T09:23:09.459Z"
+            "hours": 1.0304891756509034,
+            "id": "2026-10-14-QC1-E2",
+            "start": "2026-10-14T10:19:39.098Z",
+            "end": "2026-10-14T11:21:28.859Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.8744648153893649,
-            "start": "2026-10-11T09:23:09.459Z",
-            "end": "2026-10-11T10:15:37.533Z"
+            "hours": 1.2387372856886438,
+            "id": "2026-10-14-QC1-E3",
+            "start": "2026-10-14T11:21:28.859Z",
+            "end": "2026-10-14T12:35:48.313Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6442383832065388,
-            "start": "2026-10-11T10:15:37.533Z",
-            "end": "2026-10-11T10:54:16.791Z"
+            "hours": 0.5758665846215885,
+            "id": "2026-10-14-QC1-E4",
+            "start": "2026-10-14T12:35:48.313Z",
+            "end": "2026-10-14T13:10:21.433Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6518781583197414,
-            "start": "2026-10-11T10:54:16.791Z",
-            "end": "2026-10-11T11:33:23.552Z"
+            "hours": 1.0167627627360116,
+            "id": "2026-10-14-QC1-E5",
+            "start": "2026-10-14T13:10:21.433Z",
+            "end": "2026-10-14T14:11:21.778Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.28741102126892654,
-            "start": "2026-10-11T11:33:23.552Z",
-            "end": "2026-10-11T11:50:38.232Z"
+            "hours": 0.27445032369202926,
+            "id": "2026-10-14-QC1-E6",
+            "start": "2026-10-14T14:11:21.778Z",
+            "end": "2026-10-14T14:27:49.800Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 606,
-        "net": 19.24443386028728,
+        "moves": 604,
+        "net": 18.70780916191048,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.8747882200405,
-            "start": "2026-10-11T06:33:46.680Z",
-            "end": "2026-10-11T09:26:15.917Z"
+            "hours": 4.035994364202084,
+            "id": "2026-10-14-QC2-E1",
+            "start": "2026-10-14T07:15:04.573Z",
+            "end": "2026-10-14T11:17:14.153Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.7718555694725364,
-            "start": "2026-10-11T09:26:15.917Z",
-            "end": "2026-10-11T10:12:34.597Z"
+            "hours": 1.597528079217174,
+            "id": "2026-10-14-QC2-E2",
+            "start": "2026-10-14T11:17:14.153Z",
+            "end": "2026-10-14T12:53:05.254Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.294601239915937,
-            "start": "2026-10-11T10:12:34.597Z",
-            "end": "2026-10-11T11:30:15.162Z"
+            "hours": 1.3546132314916577,
+            "id": "2026-10-14-QC2-E3",
+            "start": "2026-10-14T12:53:05.254Z",
+            "end": "2026-10-14T14:14:21.862Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6352559295250102,
-            "start": "2026-10-11T11:30:15.162Z",
-            "end": "2026-10-11T12:08:22.083Z"
+            "hours": 0.4570471188592776,
+            "id": "2026-10-14-QC2-E4",
+            "start": "2026-10-14T14:14:21.862Z",
+            "end": "2026-10-14T14:41:47.231Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.905678213443607,
-            "start": "2026-10-11T12:08:22.083Z",
-            "end": "2026-10-11T13:02:42.525Z"
+            "hours": 0.9785662493907756,
+            "id": "2026-10-14-QC2-E5",
+            "start": "2026-10-14T14:41:47.231Z",
+            "end": "2026-10-14T15:40:30.070Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.2688774722954258,
-            "start": "2026-10-11T13:02:42.525Z",
-            "end": "2026-10-11T13:18:50.483Z"
+            "hours": 0.6724835081187753,
+            "id": "2026-10-14-QC2-E6",
+            "start": "2026-10-14T15:40:30.070Z",
+            "end": "2026-10-14T16:20:51.011Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 515,
-        "net": 15.881217975544546,
+        "moves": 555,
+        "net": 15.95732905887153,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.5948493424803014,
-            "start": "2026-10-11T06:33:46.680Z",
-            "end": "2026-10-11T09:09:28.137Z"
+            "hours": 4.267364500556916,
+            "id": "2026-10-14-QC3-E1",
+            "start": "2026-10-14T07:15:04.573Z",
+            "end": "2026-10-14T11:31:07.086Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5894145560916513,
-            "start": "2026-10-11T09:09:28.137Z",
-            "end": "2026-10-11T09:44:50.030Z"
+            "hours": 1.5235656982224584,
+            "id": "2026-10-14-QC3-E2",
+            "start": "2026-10-14T11:31:07.086Z",
+            "end": "2026-10-14T13:02:31.922Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.7149382102303207,
-            "start": "2026-10-11T09:44:50.030Z",
-            "end": "2026-10-11T10:27:43.807Z"
+            "hours": 1.9086485839834295,
+            "id": "2026-10-14-QC3-E3",
+            "start": "2026-10-14T13:02:31.922Z",
+            "end": "2026-10-14T14:57:03.057Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6330122041283175,
-            "start": "2026-10-11T10:27:43.807Z",
-            "end": "2026-10-11T11:05:42.651Z"
+            "hours": 0.4865891594114111,
+            "id": "2026-10-14-QC3-E4",
+            "start": "2026-10-14T14:57:03.057Z",
+            "end": "2026-10-14T15:26:14.778Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.853855911437422,
-            "start": "2026-10-11T11:05:42.651Z",
-            "end": "2026-10-11T11:56:56.532Z"
+            "hours": 0.980656918340865,
+            "id": "2026-10-14-QC3-E5",
+            "start": "2026-10-14T15:26:14.778Z",
+            "end": "2026-10-14T16:25:05.143Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3043431100761517,
-            "start": "2026-10-11T11:56:56.532Z",
-            "end": "2026-10-11T12:15:12.168Z"
+            "hours": 0.9372549910709285,
+            "id": "2026-10-14-QC3-E6",
+            "start": "2026-10-14T16:25:05.143Z",
+            "end": "2026-10-14T17:21:19.261Z"
           }
         ]
       }
@@ -973,161 +1167,352 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-007",
-    "name": "Costa Serena",
-    "ata": "2026-10-13T04:00:00.000Z",
-    "atb": "2026-10-13T05:34:11.640Z",
-    "commence": "2026-10-13T07:07:09.926Z",
-    "complete": "2026-10-14T07:57:29.439Z",
-    "atd": "2026-10-14T09:32:44.252Z",
+    "name": "Bahía Azul",
+    "vesselIndex": 4,
+    "sizeClass": "Gran portacontenedores",
+    "capacityTEU": 18000,
+    "lengthMeters": 395,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-17T04:00:00.000Z",
+    "atb": "2026-10-17T06:02:44.523Z",
+    "commence": "2026-10-17T07:31:32.545Z",
+    "complete": "2026-10-18T10:34:38.402Z",
+    "atd": "2026-10-18T11:29:52.583Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 643,
-        "net": 19.741023451294563,
+        "moves": 567,
+        "net": 16.42026511833163,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 1.8340919356560335,
-            "start": "2026-10-13T07:07:09.926Z",
-            "end": "2026-10-13T08:57:12.657Z"
+            "hours": 2.0165855054155637,
+            "id": "2026-10-17-QC1-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T09:32:32.253Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6559919564053416,
-            "start": "2026-10-13T08:57:12.657Z",
-            "end": "2026-10-13T09:36:34.228Z"
+            "hours": 1.3328938155963534,
+            "id": "2026-10-17-QC1-E2",
+            "start": "2026-10-17T09:32:32.253Z",
+            "end": "2026-10-17T10:52:30.671Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.0937001191545277,
-            "start": "2026-10-13T09:36:34.228Z",
-            "end": "2026-10-13T10:42:11.549Z"
+            "hours": 0.6173852016584286,
+            "id": "2026-10-17-QC1-E3",
+            "start": "2026-10-17T10:52:30.671Z",
+            "end": "2026-10-17T11:29:33.258Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.46623823703266676,
-            "start": "2026-10-13T10:42:11.549Z",
-            "end": "2026-10-13T11:10:10.006Z"
+            "hours": 0.36808845677335106,
+            "id": "2026-10-17-QC1-E4",
+            "start": "2026-10-17T11:29:33.258Z",
+            "end": "2026-10-17T11:51:38.376Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6612440681876613,
-            "start": "2026-10-13T11:10:10.006Z",
-            "end": "2026-10-13T11:49:50.485Z"
+            "hours": 0.3671967305354003,
+            "id": "2026-10-17-QC1-E5",
+            "start": "2026-10-17T11:51:38.376Z",
+            "end": "2026-10-17T12:13:40.284Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.38646369248628615,
-            "start": "2026-10-13T11:49:50.485Z",
-            "end": "2026-10-13T12:13:01.754Z"
+            "hours": 0.4883547781434159,
+            "id": "2026-10-17-QC1-E6",
+            "start": "2026-10-17T12:13:40.284Z",
+            "end": "2026-10-17T12:42:58.361Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 543,
-        "net": 17.78327233329572,
+        "moves": 316,
+        "net": 11.08685530159003,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.7072171116014943,
-            "start": "2026-10-13T07:07:09.926Z",
-            "end": "2026-10-13T09:49:35.908Z"
+            "hours": 4.493009922504914,
+            "id": "2026-10-17-QC2-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T12:01:07.381Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.46002970475703475,
-            "start": "2026-10-13T09:49:35.908Z",
-            "end": "2026-10-13T10:17:12.015Z"
+            "hours": 1.27587556120069,
+            "id": "2026-10-17-QC2-E2",
+            "start": "2026-10-17T12:01:07.381Z",
+            "end": "2026-10-17T13:17:40.533Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.1821586225647478,
-            "start": "2026-10-13T10:17:12.015Z",
-            "end": "2026-10-13T11:28:07.786Z"
+            "hours": 1.2611638380832102,
+            "id": "2026-10-17-QC2-E3",
+            "start": "2026-10-17T13:17:40.533Z",
+            "end": "2026-10-17T14:33:20.723Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.5614326853770762,
-            "start": "2026-10-13T11:28:07.786Z",
-            "end": "2026-10-13T12:01:48.944Z"
+            "hours": 0.373772160857029,
+            "id": "2026-10-17-QC2-E4",
+            "start": "2026-10-17T14:33:20.723Z",
+            "end": "2026-10-17T14:55:46.303Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8560267376201226,
-            "start": "2026-10-13T12:01:48.944Z",
-            "end": "2026-10-13T12:53:10.640Z"
+            "hours": 1.2457759201673175,
+            "id": "2026-10-17-QC2-E5",
+            "start": "2026-10-17T14:55:46.303Z",
+            "end": "2026-10-17T16:10:31.096Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.361965292878449,
-            "start": "2026-10-13T12:53:10.640Z",
-            "end": "2026-10-13T13:14:53.715Z"
+            "hours": 0.19959526504139133,
+            "id": "2026-10-17-QC2-E6",
+            "start": "2026-10-17T16:10:31.096Z",
+            "end": "2026-10-17T16:22:29.639Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 429,
-        "net": 13.417454424937782,
+        "moves": 387,
+        "net": 11.684805299219589,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.2588122732704505,
-            "start": "2026-10-13T07:07:09.926Z",
-            "end": "2026-10-13T09:22:41.651Z"
+            "hours": 3.295983609102567,
+            "id": "2026-10-17-QC3-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T10:49:18.086Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6847841894254089,
-            "start": "2026-10-13T09:22:41.651Z",
-            "end": "2026-10-13T10:03:46.874Z"
+            "hours": 0.8762169273812211,
+            "id": "2026-10-17-QC3-E2",
+            "start": "2026-10-17T10:49:18.086Z",
+            "end": "2026-10-17T11:41:52.467Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.1464796647895126,
-            "start": "2026-10-13T10:03:46.874Z",
-            "end": "2026-10-13T11:12:34.200Z"
+            "hours": 0.610671873995796,
+            "id": "2026-10-17-QC3-E3",
+            "start": "2026-10-17T11:41:52.467Z",
+            "end": "2026-10-17T12:18:30.886Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6028372737113386,
-            "start": "2026-10-13T11:12:34.200Z",
-            "end": "2026-10-13T11:48:44.415Z"
+            "hours": 0.2621046617660526,
+            "id": "2026-10-17-QC3-E4",
+            "start": "2026-10-17T12:18:30.886Z",
+            "end": "2026-10-17T12:34:14.463Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8173826609225943,
-            "start": "2026-10-13T11:48:44.415Z",
-            "end": "2026-10-13T12:37:46.992Z"
+            "hours": 0.4331456876620604,
+            "id": "2026-10-17-QC3-E5",
+            "start": "2026-10-17T12:34:14.463Z",
+            "end": "2026-10-17T13:00:13.787Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.27978031285107136,
-            "start": "2026-10-13T12:37:46.992Z",
-            "end": "2026-10-13T12:54:34.201Z"
+            "hours": 0.4429834671183255,
+            "id": "2026-10-17-QC3-E6",
+            "start": "2026-10-17T13:00:13.787Z",
+            "end": "2026-10-17T13:26:48.528Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 563,
+        "net": 17.32993034118073,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 4.5751576663010205,
+            "id": "2026-10-17-QC4-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T12:06:03.113Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.1520377876852783,
+            "id": "2026-10-17-QC4-E2",
+            "start": "2026-10-17T12:06:03.113Z",
+            "end": "2026-10-17T13:15:10.449Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.9316040327290095,
+            "id": "2026-10-17-QC4-E3",
+            "start": "2026-10-17T13:15:10.449Z",
+            "end": "2026-10-17T14:11:04.223Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.7484643387232165,
+            "id": "2026-10-17-QC4-E4",
+            "start": "2026-10-17T14:11:04.223Z",
+            "end": "2026-10-17T14:55:58.695Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.428463831309986,
+            "id": "2026-10-17-QC4-E5",
+            "start": "2026-10-17T14:55:58.695Z",
+            "end": "2026-10-17T16:21:41.165Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.8859687504313947,
+            "id": "2026-10-17-QC4-E6",
+            "start": "2026-10-17T16:21:41.165Z",
+            "end": "2026-10-17T17:14:50.652Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-05",
+        "shift": "Día",
+        "moves": 442,
+        "net": 13.785178823288064,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.4132728617943675,
+            "id": "2026-10-17-QC5-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T08:56:20.328Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.124558183446522,
+            "id": "2026-10-17-QC5-E2",
+            "start": "2026-10-17T08:56:20.328Z",
+            "end": "2026-10-17T10:03:48.737Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.7680840835691052,
+            "id": "2026-10-17-QC5-E3",
+            "start": "2026-10-17T10:03:48.737Z",
+            "end": "2026-10-17T10:49:53.840Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.45149987197791,
+            "id": "2026-10-17-QC5-E4",
+            "start": "2026-10-17T10:49:53.840Z",
+            "end": "2026-10-17T11:16:59.239Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.5843516396090923,
+            "id": "2026-10-17-QC5-E5",
+            "start": "2026-10-17T11:16:59.239Z",
+            "end": "2026-10-17T11:52:02.905Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.46734210388435865,
+            "id": "2026-10-17-QC5-E6",
+            "start": "2026-10-17T11:52:02.905Z",
+            "end": "2026-10-17T12:20:05.337Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-06",
+        "shift": "Noche",
+        "moves": 379,
+        "net": 12.26626197247916,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.8665025037050915,
+            "id": "2026-10-17-QC6-E1",
+            "start": "2026-10-17T07:31:32.545Z",
+            "end": "2026-10-17T10:23:31.954Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.2091189820074153,
+            "id": "2026-10-17-QC6-E2",
+            "start": "2026-10-17T10:23:31.954Z",
+            "end": "2026-10-17T11:36:04.783Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.7066412228950508,
+            "id": "2026-10-17-QC6-E3",
+            "start": "2026-10-17T11:36:04.783Z",
+            "end": "2026-10-17T12:18:28.691Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.33067105715953105,
+            "id": "2026-10-17-QC6-E4",
+            "start": "2026-10-17T12:18:28.691Z",
+            "end": "2026-10-17T12:38:19.107Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.8370678647454877,
+            "id": "2026-10-17-QC6-E5",
+            "start": "2026-10-17T12:38:19.107Z",
+            "end": "2026-10-17T13:28:32.551Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.43556192150914275,
+            "id": "2026-10-17-QC6-E6",
+            "start": "2026-10-17T13:28:32.551Z",
+            "end": "2026-10-17T13:54:40.574Z"
           }
         ]
       }
@@ -1136,160 +1521,295 @@ window.ESCALAS = [
   {
     "id": "ESC-008",
     "name": "Atlantic Pearl",
-    "ata": "2026-10-15T04:00:00.000Z",
-    "atb": "2026-10-15T05:41:33.664Z",
-    "commence": "2026-10-15T07:06:47.528Z",
-    "complete": "2026-10-16T07:52:12.125Z",
-    "atd": "2026-10-16T09:25:21.818Z",
+    "vesselIndex": 7,
+    "sizeClass": "Neopanamax",
+    "capacityTEU": 14000,
+    "lengthMeters": 350,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-20T04:00:00.000Z",
+    "atb": "2026-10-20T06:02:52.894Z",
+    "commence": "2026-10-20T06:48:00.517Z",
+    "complete": "2026-10-21T06:19:34.317Z",
+    "atd": "2026-10-21T07:20:39.341Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 540,
-        "net": 17.800445935640457,
+        "moves": 604,
+        "net": 17.3019420981583,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.3439292835537344,
-            "start": "2026-10-15T07:06:47.528Z",
-            "end": "2026-10-15T09:27:25.673Z"
+            "hours": 2.6133306370345197,
+            "id": "2026-10-20-QC1-E1",
+            "start": "2026-10-20T06:48:00.517Z",
+            "end": "2026-10-20T09:24:48.507Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6587542173732072,
-            "start": "2026-10-15T09:27:25.673Z",
-            "end": "2026-10-15T10:06:57.188Z"
+            "hours": 0.5608140968860096,
+            "id": "2026-10-20-QC1-E2",
+            "start": "2026-10-20T09:24:48.507Z",
+            "end": "2026-10-20T09:58:27.438Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.9810960132628679,
-            "start": "2026-10-15T10:06:57.188Z",
-            "end": "2026-10-15T11:05:49.134Z"
+            "hours": 0.8121624649934484,
+            "id": "2026-10-20-QC1-E3",
+            "start": "2026-10-20T09:58:27.438Z",
+            "end": "2026-10-20T10:47:11.223Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.3915585794718936,
-            "start": "2026-10-15T11:05:49.134Z",
-            "end": "2026-10-15T11:29:18.745Z"
+            "hours": 0.7527697517907601,
+            "id": "2026-10-20-QC1-E4",
+            "start": "2026-10-20T10:47:11.223Z",
+            "end": "2026-10-20T11:32:21.194Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.721442183787003,
-            "start": "2026-10-15T11:29:18.745Z",
-            "end": "2026-10-15T12:12:35.937Z"
+            "hours": 0.7088855830173634,
+            "id": "2026-10-20-QC1-E5",
+            "start": "2026-10-20T11:32:21.194Z",
+            "end": "2026-10-20T12:14:53.182Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.28719283286947755,
-            "start": "2026-10-15T12:12:35.937Z",
-            "end": "2026-10-15T12:29:49.831Z"
+            "hours": 0.4468592522779538,
+            "id": "2026-10-20-QC1-E6",
+            "start": "2026-10-20T12:14:53.182Z",
+            "end": "2026-10-20T12:41:41.875Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 441,
-        "net": 13.887106348549521,
+        "moves": 363,
+        "net": 11.444439805858066,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.658978193299845,
-            "start": "2026-10-15T07:06:47.528Z",
-            "end": "2026-10-15T09:46:19.849Z"
+            "hours": 2.9023110154744467,
+            "id": "2026-10-20-QC2-E1",
+            "start": "2026-10-20T06:48:00.517Z",
+            "end": "2026-10-20T09:42:08.837Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.4875130520481616,
-            "start": "2026-10-15T09:46:19.849Z",
-            "end": "2026-10-15T10:15:34.896Z"
+            "hours": 0.4561158514470524,
+            "id": "2026-10-20-QC2-E2",
+            "start": "2026-10-20T09:42:08.837Z",
+            "end": "2026-10-20T10:09:30.854Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.7132415607571602,
-            "start": "2026-10-15T10:15:34.896Z",
-            "end": "2026-10-15T10:58:22.566Z"
+            "hours": 1.151730330678781,
+            "id": "2026-10-20-QC2-E3",
+            "start": "2026-10-20T10:09:30.854Z",
+            "end": "2026-10-20T11:18:37.083Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.3752800478832796,
-            "start": "2026-10-15T10:58:22.566Z",
-            "end": "2026-10-15T11:20:53.574Z"
+            "hours": 0.9716603146860514,
+            "id": "2026-10-20-QC2-E4",
+            "start": "2026-10-20T11:18:37.083Z",
+            "end": "2026-10-20T12:16:55.060Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6895326310116796,
-            "start": "2026-10-15T11:20:53.574Z",
-            "end": "2026-10-15T12:02:15.891Z"
+            "hours": 0.9173079623789163,
+            "id": "2026-10-20-QC2-E5",
+            "start": "2026-10-20T12:16:55.060Z",
+            "end": "2026-10-20T13:11:57.369Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3779071135120466,
-            "start": "2026-10-15T12:02:15.891Z",
-            "end": "2026-10-15T12:24:56.357Z"
+            "hours": 0.5263654896659178,
+            "id": "2026-10-20-QC2-E6",
+            "start": "2026-10-20T13:11:57.369Z",
+            "end": "2026-10-20T13:43:32.284Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 627,
-        "net": 19.58641248880934,
+        "moves": 485,
+        "net": 15.416590578414159,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 1.8621718047652391,
-            "start": "2026-10-15T07:06:47.528Z",
-            "end": "2026-10-15T08:58:31.346Z"
+            "hours": 2.4251977357544674,
+            "id": "2026-10-20-QC3-E1",
+            "start": "2026-10-20T06:48:00.517Z",
+            "end": "2026-10-20T09:13:31.229Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5705829166341573,
-            "start": "2026-10-15T08:58:31.346Z",
-            "end": "2026-10-15T09:32:45.445Z"
+            "hours": 0.867620550108779,
+            "id": "2026-10-20-QC3-E2",
+            "start": "2026-10-20T09:13:31.229Z",
+            "end": "2026-10-20T10:05:34.663Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.0238249015063046,
-            "start": "2026-10-15T09:32:45.445Z",
-            "end": "2026-10-15T10:34:11.214Z"
+            "hours": 0.859649738887037,
+            "id": "2026-10-20-QC3-E3",
+            "start": "2026-10-20T10:05:34.663Z",
+            "end": "2026-10-20T10:57:09.402Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.642910282802768,
-            "start": "2026-10-15T10:34:11.214Z",
-            "end": "2026-10-15T11:12:45.691Z"
+            "hours": 1.0272367607881148,
+            "id": "2026-10-20-QC3-E4",
+            "start": "2026-10-20T10:57:09.402Z",
+            "end": "2026-10-20T11:58:47.454Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.7130237370822577,
-            "start": "2026-10-15T11:12:45.691Z",
-            "end": "2026-10-15T11:55:32.577Z"
+            "hours": 1.3841726405430221,
+            "id": "2026-10-20-QC3-E5",
+            "start": "2026-10-20T11:58:47.454Z",
+            "end": "2026-10-20T13:21:50.476Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.35790659737307573,
-            "start": "2026-10-15T11:55:32.577Z",
-            "end": "2026-10-15T12:17:01.040Z"
+            "hours": 1.0604901571708243,
+            "id": "2026-10-20-QC3-E6",
+            "start": "2026-10-20T13:21:50.476Z",
+            "end": "2026-10-20T14:25:28.240Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 540,
+        "net": 17.324505733326564,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.3555607420301508,
+            "id": "2026-10-20-QC4-E1",
+            "start": "2026-10-20T06:48:00.517Z",
+            "end": "2026-10-20T09:09:20.536Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.0152925793714618,
+            "id": "2026-10-20-QC4-E2",
+            "start": "2026-10-20T09:09:20.536Z",
+            "end": "2026-10-20T10:10:15.589Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.0550866751951011,
+            "id": "2026-10-20-QC4-E3",
+            "start": "2026-10-20T10:10:15.589Z",
+            "end": "2026-10-20T11:13:33.901Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.5180537902066993,
+            "id": "2026-10-20-QC4-E4",
+            "start": "2026-10-20T11:13:33.901Z",
+            "end": "2026-10-20T11:44:38.895Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.7841582189763711,
+            "id": "2026-10-20-QC4-E5",
+            "start": "2026-10-20T11:44:38.895Z",
+            "end": "2026-10-20T12:31:41.864Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.4733978013040565,
+            "id": "2026-10-20-QC4-E6",
+            "start": "2026-10-20T12:31:41.864Z",
+            "end": "2026-10-20T13:00:06.096Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-05",
+        "shift": "Día",
+        "moves": 418,
+        "net": 13.278666905529187,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.5027828778388335,
+            "id": "2026-10-20-QC5-E1",
+            "start": "2026-10-20T06:48:00.517Z",
+            "end": "2026-10-20T08:18:10.535Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.0960129229883566,
+            "id": "2026-10-20-QC5-E2",
+            "start": "2026-10-20T08:18:10.535Z",
+            "end": "2026-10-20T09:23:56.182Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.94063149549923,
+            "id": "2026-10-20-QC5-E3",
+            "start": "2026-10-20T09:23:56.182Z",
+            "end": "2026-10-20T10:20:22.455Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.8026988704727948,
+            "id": "2026-10-20-QC5-E4",
+            "start": "2026-10-20T10:20:22.455Z",
+            "end": "2026-10-20T11:08:32.171Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.5619599006227939,
+            "id": "2026-10-20-QC5-E5",
+            "start": "2026-10-20T11:08:32.171Z",
+            "end": "2026-10-20T11:42:15.227Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.6129168537902825,
+            "id": "2026-10-20-QC5-E6",
+            "start": "2026-10-20T11:42:15.227Z",
+            "end": "2026-10-20T12:19:01.728Z"
           }
         ]
       }
@@ -1297,161 +1817,352 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-009",
-    "name": "Marea Norte",
-    "ata": "2026-10-17T04:00:00.000Z",
-    "atb": "2026-10-17T06:30:52.998Z",
-    "commence": "2026-10-17T07:30:16.247Z",
-    "complete": "2026-10-18T07:34:30.153Z",
-    "atd": "2026-10-18T09:09:50.603Z",
+    "name": "Horizon Panamá",
+    "vesselIndex": 9,
+    "sizeClass": "Gran portacontenedores",
+    "capacityTEU": 18000,
+    "lengthMeters": 395,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-22T04:00:00.000Z",
+    "atb": "2026-10-22T06:02:58.475Z",
+    "commence": "2026-10-22T06:58:59.165Z",
+    "complete": "2026-10-23T09:20:14.611Z",
+    "atd": "2026-10-23T10:02:26.413Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 573,
-        "net": 17.20796438491806,
+        "moves": 546,
+        "net": 17.904403265432958,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 3.169133437448181,
-            "start": "2026-10-17T07:30:16.247Z",
-            "end": "2026-10-17T10:40:25.128Z"
+            "hours": 3.202370064728108,
+            "id": "2026-10-22-QC1-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T10:11:07.697Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.7653768943436443,
-            "start": "2026-10-17T10:40:25.128Z",
-            "end": "2026-10-17T11:26:20.485Z"
+            "hours": 1.4167416509733686,
+            "id": "2026-10-22-QC1-E2",
+            "start": "2026-10-22T10:11:07.697Z",
+            "end": "2026-10-22T11:36:07.967Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.100069708144292,
-            "start": "2026-10-17T11:26:20.485Z",
-            "end": "2026-10-17T12:32:20.736Z"
+            "hours": 0.6837578591269166,
+            "id": "2026-10-22-QC1-E3",
+            "start": "2026-10-22T11:36:07.967Z",
+            "end": "2026-10-22T12:17:09.495Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6362948308698833,
-            "start": "2026-10-17T12:32:20.736Z",
-            "end": "2026-10-17T13:10:31.397Z"
+            "hours": 0.6111069375443504,
+            "id": "2026-10-22-QC1-E4",
+            "start": "2026-10-22T12:17:09.495Z",
+            "end": "2026-10-22T12:53:49.480Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.5938437180919572,
-            "start": "2026-10-17T13:10:31.397Z",
-            "end": "2026-10-17T13:46:09.234Z"
+            "hours": 0.9969928635991995,
+            "id": "2026-10-22-QC1-E5",
+            "start": "2026-10-22T12:53:49.480Z",
+            "end": "2026-10-22T13:53:38.655Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.38314524161629376,
-            "start": "2026-10-17T13:46:09.234Z",
-            "end": "2026-10-17T14:09:08.557Z"
+            "hours": 0.491239825026779,
+            "id": "2026-10-22-QC1-E6",
+            "start": "2026-10-22T13:53:38.655Z",
+            "end": "2026-10-22T14:23:07.118Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 561,
-        "net": 18.48172166549713,
+        "moves": 395,
+        "net": 11.664780171050403,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.4249178475001827,
-            "start": "2026-10-17T07:30:16.247Z",
-            "end": "2026-10-17T09:55:45.952Z"
+            "hours": 2.3102583884259897,
+            "id": "2026-10-22-QC2-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T09:17:36.095Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5362109282054007,
-            "start": "2026-10-17T09:55:45.952Z",
-            "end": "2026-10-17T10:27:56.311Z"
+            "hours": 1.292837077358562,
+            "id": "2026-10-22-QC2-E2",
+            "start": "2026-10-22T09:17:36.095Z",
+            "end": "2026-10-22T10:35:10.309Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.9670926080550998,
-            "start": "2026-10-17T10:27:56.311Z",
-            "end": "2026-10-17T11:25:57.844Z"
+            "hours": 0.8003599563685121,
+            "id": "2026-10-22-QC2-E3",
+            "start": "2026-10-22T10:35:10.309Z",
+            "end": "2026-10-22T11:23:11.604Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.5825318493880332,
-            "start": "2026-10-17T11:25:57.844Z",
-            "end": "2026-10-17T12:00:54.959Z"
+            "hours": 0.7924202652972051,
+            "id": "2026-10-22-QC2-E4",
+            "start": "2026-10-22T11:23:11.604Z",
+            "end": "2026-10-22T12:10:44.317Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8363922108290717,
-            "start": "2026-10-17T12:00:54.959Z",
-            "end": "2026-10-17T12:51:05.971Z"
+            "hours": 0.356890893268702,
+            "id": "2026-10-22-QC2-E5",
+            "start": "2026-10-22T12:10:44.317Z",
+            "end": "2026-10-22T12:32:09.125Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.24166234678588805,
-            "start": "2026-10-17T12:51:05.971Z",
-            "end": "2026-10-17T13:05:35.955Z"
+            "hours": 0.40947442808816276,
+            "id": "2026-10-22-QC2-E6",
+            "start": "2026-10-22T12:32:09.125Z",
+            "end": "2026-10-22T12:56:43.233Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 509,
-        "net": 15.12969528263657,
+        "moves": 585,
+        "net": 17.897533908035765,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.766865390934981,
-            "start": "2026-10-17T07:30:16.247Z",
-            "end": "2026-10-17T10:16:16.963Z"
+            "hours": 3.8434847235692353,
+            "id": "2026-10-22-QC3-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T10:49:35.710Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.7125475222058594,
-            "start": "2026-10-17T10:16:16.963Z",
-            "end": "2026-10-17T10:59:02.134Z"
+            "hours": 1.3882941782064684,
+            "id": "2026-10-22-QC3-E2",
+            "start": "2026-10-22T10:49:35.710Z",
+            "end": "2026-10-22T12:12:53.569Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.0156402972992509,
-            "start": "2026-10-17T10:59:02.134Z",
-            "end": "2026-10-17T11:59:58.439Z"
+            "hours": 0.9019342147222447,
+            "id": "2026-10-22-QC3-E3",
+            "start": "2026-10-22T12:12:53.569Z",
+            "end": "2026-10-22T13:07:00.532Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.40375140970572826,
-            "start": "2026-10-17T11:59:58.439Z",
-            "end": "2026-10-17T12:24:11.944Z"
+            "hours": 0.7987605892709012,
+            "id": "2026-10-22-QC3-E4",
+            "start": "2026-10-22T13:07:00.532Z",
+            "end": "2026-10-22T13:54:56.070Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6804851469350979,
-            "start": "2026-10-17T12:24:11.944Z",
-            "end": "2026-10-17T13:05:01.691Z"
+            "hours": 1.0942905546865525,
+            "id": "2026-10-22-QC3-E5",
+            "start": "2026-10-22T13:54:56.070Z",
+            "end": "2026-10-22T15:00:35.516Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.27357886816374954,
-            "start": "2026-10-17T13:05:01.691Z",
-            "end": "2026-10-17T13:21:26.575Z"
+            "hours": 0.42999241539622424,
+            "id": "2026-10-22-QC3-E6",
+            "start": "2026-10-22T15:00:35.516Z",
+            "end": "2026-10-22T15:26:23.489Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 564,
+        "net": 17.287478649330012,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.8088140436005875,
+            "id": "2026-10-22-QC4-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T09:47:30.895Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.6421462635964056,
+            "id": "2026-10-22-QC4-E2",
+            "start": "2026-10-22T09:47:30.895Z",
+            "end": "2026-10-22T10:26:02.622Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.3004462939217096,
+            "id": "2026-10-22-QC4-E3",
+            "start": "2026-10-22T10:26:02.622Z",
+            "end": "2026-10-22T11:44:04.229Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.3035908835669463,
+            "id": "2026-10-22-QC4-E4",
+            "start": "2026-10-22T11:44:04.229Z",
+            "end": "2026-10-22T12:02:17.156Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.2631156994206905,
+            "id": "2026-10-22-QC4-E5",
+            "start": "2026-10-22T12:02:17.156Z",
+            "end": "2026-10-22T13:18:04.372Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.32647278933254664,
+            "id": "2026-10-22-QC4-E6",
+            "start": "2026-10-22T13:18:04.372Z",
+            "end": "2026-10-22T13:37:39.674Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-05",
+        "shift": "Día",
+        "moves": 448,
+        "net": 15.579271597930434,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.805201455089669,
+            "id": "2026-10-22-QC5-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T09:47:17.890Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 0.9689548679700373,
+            "id": "2026-10-22-QC5-E2",
+            "start": "2026-10-22T09:47:17.890Z",
+            "end": "2026-10-22T10:45:26.128Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.694645131857949,
+            "id": "2026-10-22-QC5-E3",
+            "start": "2026-10-22T10:45:26.128Z",
+            "end": "2026-10-22T11:27:06.850Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 1.2335035519355944,
+            "id": "2026-10-22-QC5-E4",
+            "start": "2026-10-22T11:27:06.850Z",
+            "end": "2026-10-22T12:41:07.463Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.5789045741770154,
+            "id": "2026-10-22-QC5-E5",
+            "start": "2026-10-22T12:41:07.463Z",
+            "end": "2026-10-22T14:15:51.519Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.9005519512366593,
+            "id": "2026-10-22-QC5-E6",
+            "start": "2026-10-22T14:15:51.519Z",
+            "end": "2026-10-22T15:09:53.506Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-06",
+        "shift": "Noche",
+        "moves": 435,
+        "net": 14.88226300265175,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 3.254804842460852,
+            "id": "2026-10-22-QC6-E1",
+            "start": "2026-10-22T06:58:59.165Z",
+            "end": "2026-10-22T10:14:16.462Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.2847146378029561,
+            "id": "2026-10-22-QC6-E2",
+            "start": "2026-10-22T10:14:16.462Z",
+            "end": "2026-10-22T11:31:21.435Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.8376707884945223,
+            "id": "2026-10-22-QC6-E3",
+            "start": "2026-10-22T11:31:21.435Z",
+            "end": "2026-10-22T12:21:37.050Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.5664577212488026,
+            "id": "2026-10-22-QC6-E4",
+            "start": "2026-10-22T12:21:37.050Z",
+            "end": "2026-10-22T12:55:36.298Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 0.8708894353251244,
+            "id": "2026-10-22-QC6-E5",
+            "start": "2026-10-22T12:55:36.298Z",
+            "end": "2026-10-22T13:47:51.500Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.42824670318101427,
+            "id": "2026-10-22-QC6-E6",
+            "start": "2026-10-22T13:47:51.500Z",
+            "end": "2026-10-22T14:13:33.188Z"
           }
         ]
       }
@@ -1459,161 +2170,128 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-010",
-    "name": "Horizon Panamá",
-    "ata": "2026-10-19T04:00:00.000Z",
-    "atb": "2026-10-19T06:09:57.114Z",
-    "commence": "2026-10-19T06:53:23.948Z",
-    "complete": "2026-10-20T05:33:25.268Z",
-    "atd": "2026-10-20T06:26:48.773Z",
+    "name": "Pacific Aurora",
+    "vesselIndex": 0,
+    "sizeClass": "Alimentador",
+    "capacityTEU": 2500,
+    "lengthMeters": 185,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-25T04:00:00.000Z",
+    "atb": "2026-10-25T06:03:06.846Z",
+    "commence": "2026-10-25T07:15:27.137Z",
+    "complete": "2026-10-26T10:39:10.843Z",
+    "atd": "2026-10-26T11:37:42.551Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 450,
-        "net": 14.950787884668763,
+        "moves": 580,
+        "net": 18.785932912984975,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 1.7606461220420897,
-            "start": "2026-10-19T06:53:23.948Z",
-            "end": "2026-10-19T08:39:02.274Z"
+            "hours": 3.9789185361055526,
+            "id": "2026-10-25-QC1-E1",
+            "start": "2026-10-25T07:15:27.137Z",
+            "end": "2026-10-25T11:14:11.243Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.44169457647018134,
-            "start": "2026-10-19T08:39:02.274Z",
-            "end": "2026-10-19T09:05:32.374Z"
+            "hours": 1.816033073735634,
+            "id": "2026-10-25-QC1-E2",
+            "start": "2026-10-25T11:14:11.243Z",
+            "end": "2026-10-25T13:03:08.962Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.7164724980480969,
-            "start": "2026-10-19T09:05:32.374Z",
-            "end": "2026-10-19T09:48:31.675Z"
+            "hours": 0.8544060230039107,
+            "id": "2026-10-25-QC1-E3",
+            "start": "2026-10-25T13:03:08.962Z",
+            "end": "2026-10-25T13:54:24.824Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.46322714609559623,
-            "start": "2026-10-19T09:48:31.675Z",
-            "end": "2026-10-19T10:16:19.293Z"
+            "hours": 0.8106364525682392,
+            "id": "2026-10-25-QC1-E4",
+            "start": "2026-10-25T13:54:24.824Z",
+            "end": "2026-10-25T14:43:03.115Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.7506452298909425,
-            "start": "2026-10-19T10:16:19.293Z",
-            "end": "2026-10-19T11:01:21.616Z"
+            "hours": 0.3871565168820312,
+            "id": "2026-10-25-QC1-E5",
+            "start": "2026-10-25T14:43:03.115Z",
+            "end": "2026-10-25T15:06:16.879Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.32161404419224704,
-            "start": "2026-10-19T11:01:21.616Z",
-            "end": "2026-10-19T11:20:39.426Z"
+            "hours": 0.7623905383020444,
+            "id": "2026-10-25-QC1-E6",
+            "start": "2026-10-25T15:06:16.879Z",
+            "end": "2026-10-25T15:52:01.485Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 564,
-        "net": 16.864169666254913,
+        "moves": 362,
+        "net": 12.035031828197258,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.6848190440796316,
-            "start": "2026-10-19T06:53:23.948Z",
-            "end": "2026-10-19T09:34:29.296Z"
+            "hours": 2.453826742792987,
+            "id": "2026-10-25-QC2-E1",
+            "start": "2026-10-25T07:15:27.137Z",
+            "end": "2026-10-25T09:42:40.913Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.545627665920183,
-            "start": "2026-10-19T09:34:29.296Z",
-            "end": "2026-10-19T10:07:13.556Z"
+            "hours": 1.1297641936406633,
+            "id": "2026-10-25-QC2-E2",
+            "start": "2026-10-25T09:42:40.913Z",
+            "end": "2026-10-25T10:50:28.064Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.959333771560341,
-            "start": "2026-10-19T10:07:13.556Z",
-            "end": "2026-10-19T11:04:47.157Z"
+            "hours": 0.750200075516871,
+            "id": "2026-10-25-QC2-E3",
+            "start": "2026-10-25T10:50:28.064Z",
+            "end": "2026-10-25T11:35:28.784Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.39387363025452937,
-            "start": "2026-10-19T11:04:47.157Z",
-            "end": "2026-10-19T11:28:25.102Z"
+            "hours": 0.7548631534450939,
+            "id": "2026-10-25-QC2-E4",
+            "start": "2026-10-25T11:35:28.784Z",
+            "end": "2026-10-25T12:20:46.292Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6653077374026178,
-            "start": "2026-10-19T11:28:25.102Z",
-            "end": "2026-10-19T12:08:20.210Z"
+            "hours": 0.2730518996037466,
+            "id": "2026-10-25-QC2-E5",
+            "start": "2026-10-25T12:20:46.292Z",
+            "end": "2026-10-25T12:37:09.279Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.37746370337437835,
-            "start": "2026-10-19T12:08:20.210Z",
-            "end": "2026-10-19T12:30:59.079Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 533,
-        "net": 16.599963804921078,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.763030842412263,
-            "start": "2026-10-19T06:53:23.948Z",
-            "end": "2026-10-19T09:39:10.859Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6640963755827397,
-            "start": "2026-10-19T09:39:10.859Z",
-            "end": "2026-10-19T10:19:01.605Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 1.2409188834019005,
-            "start": "2026-10-19T10:19:01.605Z",
-            "end": "2026-10-19T11:33:28.913Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.6230176660930737,
-            "start": "2026-10-19T11:33:28.913Z",
-            "end": "2026-10-19T12:10:51.777Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.49206355169415467,
-            "start": "2026-10-19T12:10:51.777Z",
-            "end": "2026-10-19T12:40:23.206Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.2839423977909609,
-            "start": "2026-10-19T12:40:23.206Z",
-            "end": "2026-10-19T12:57:25.398Z"
+            "hours": 0.8723587140963662,
+            "id": "2026-10-25-QC2-E6",
+            "start": "2026-10-25T12:37:09.279Z",
+            "end": "2026-10-25T13:29:29.770Z"
           }
         ]
       }
@@ -1621,161 +2299,296 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-011",
-    "name": "Estrella del Sur",
-    "ata": "2026-10-21T04:00:00.000Z",
-    "atb": "2026-10-21T05:56:22.374Z",
-    "commence": "2026-10-21T06:48:24.048Z",
-    "complete": "2026-10-22T07:16:40.693Z",
-    "atd": "2026-10-22T08:42:21.639Z",
+    "name": "Ocean Atlas",
+    "vesselIndex": 3,
+    "sizeClass": "Neopanamax",
+    "capacityTEU": 14000,
+    "lengthMeters": 350,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-28T04:00:00.000Z",
+    "atb": "2026-10-28T06:03:15.217Z",
+    "commence": "2026-10-28T07:31:55.108Z",
+    "complete": "2026-10-29T07:17:43.710Z",
+    "atd": "2026-10-29T08:06:50.654Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 588,
-        "net": 19.99088052005839,
+        "moves": 365,
+        "net": 11.678864208271271,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 1.8625139117939395,
-            "start": "2026-10-21T06:48:24.048Z",
-            "end": "2026-10-21T08:40:09.098Z"
+            "hours": 2.6019563616139423,
+            "id": "2026-10-28-QC1-E1",
+            "start": "2026-10-28T07:31:55.108Z",
+            "end": "2026-10-28T10:08:02.151Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.43755138404667376,
-            "start": "2026-10-21T08:40:09.098Z",
-            "end": "2026-10-21T09:06:24.283Z"
+            "hours": 0.7389023570893275,
+            "id": "2026-10-28-QC1-E2",
+            "start": "2026-10-28T10:08:02.151Z",
+            "end": "2026-10-28T10:52:22.200Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.8375245998147874,
-            "start": "2026-10-21T09:06:24.283Z",
-            "end": "2026-10-21T09:56:39.371Z"
+            "hours": 1.0030797682471728,
+            "id": "2026-10-28-QC1-E3",
+            "start": "2026-10-28T10:52:22.200Z",
+            "end": "2026-10-28T11:52:33.287Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.3880737464409321,
-            "start": "2026-10-21T09:56:39.371Z",
-            "end": "2026-10-21T10:19:56.437Z"
+            "hours": 0.5484886649985266,
+            "id": "2026-10-28-QC1-E4",
+            "start": "2026-10-28T11:52:33.287Z",
+            "end": "2026-10-28T12:25:27.846Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.593060978227295,
-            "start": "2026-10-21T10:19:56.437Z",
-            "end": "2026-10-21T10:55:31.456Z"
+            "hours": 1.2892472898008183,
+            "id": "2026-10-28-QC1-E5",
+            "start": "2026-10-28T12:25:27.846Z",
+            "end": "2026-10-28T13:42:49.136Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.36168528718873855,
-            "start": "2026-10-21T10:55:31.456Z",
-            "end": "2026-10-21T11:17:13.523Z"
+            "hours": 1.091201149572513,
+            "id": "2026-10-28-QC1-E6",
+            "start": "2026-10-28T13:42:49.136Z",
+            "end": "2026-10-28T14:48:17.461Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 639,
-        "net": 18.900677734307294,
+        "moves": 413,
+        "net": 12.404229383091105,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.0033271386055276,
-            "start": "2026-10-21T06:48:24.048Z",
-            "end": "2026-10-21T08:48:36.025Z"
+            "hours": 3.622313362648764,
+            "id": "2026-10-28-QC2-E1",
+            "start": "2026-10-28T07:31:55.108Z",
+            "end": "2026-10-28T11:09:15.437Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.47027743801474564,
-            "start": "2026-10-21T08:48:36.025Z",
-            "end": "2026-10-21T09:16:49.024Z"
+            "hours": 0.7809909128565801,
+            "id": "2026-10-28-QC2-E2",
+            "start": "2026-10-28T11:09:15.437Z",
+            "end": "2026-10-28T11:56:07.004Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.7291599413845687,
-            "start": "2026-10-21T09:16:49.024Z",
-            "end": "2026-10-21T10:00:34.000Z"
+            "hours": 1.276964077196168,
+            "id": "2026-10-28-QC2-E3",
+            "start": "2026-10-28T11:56:07.004Z",
+            "end": "2026-10-28T13:12:44.075Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6465369665529579,
-            "start": "2026-10-21T10:00:34.000Z",
-            "end": "2026-10-21T10:39:21.533Z"
+            "hours": 0.6384839557814358,
+            "id": "2026-10-28-QC2-E4",
+            "start": "2026-10-28T13:12:44.075Z",
+            "end": "2026-10-28T13:51:02.617Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.8611007357249036,
-            "start": "2026-10-21T10:39:21.533Z",
-            "end": "2026-10-21T11:31:01.496Z"
+            "hours": 0.3617296915275433,
+            "id": "2026-10-28-QC2-E5",
+            "start": "2026-10-28T13:51:02.617Z",
+            "end": "2026-10-28T14:12:44.844Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.3691204473562539,
-            "start": "2026-10-21T11:31:01.496Z",
-            "end": "2026-10-21T11:53:10.329Z"
+            "hours": 0.9932869193729083,
+            "id": "2026-10-28-QC2-E6",
+            "start": "2026-10-28T14:12:44.844Z",
+            "end": "2026-10-28T15:12:20.677Z"
           }
         ]
       },
       {
         "id": "QC-03",
         "shift": "Día",
-        "moves": 513,
-        "net": 15.782107909644694,
+        "moves": 509,
+        "net": 17.333309197157426,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.8505420413566753,
-            "start": "2026-10-21T06:48:24.048Z",
-            "end": "2026-10-21T09:39:25.999Z"
+            "hours": 2.207636504660075,
+            "id": "2026-10-28-QC3-E1",
+            "start": "2026-10-28T07:31:55.108Z",
+            "end": "2026-10-28T09:44:22.600Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.5629178830236196,
-            "start": "2026-10-21T09:39:25.999Z",
-            "end": "2026-10-21T10:13:12.503Z"
+            "hours": 0.6951736201619652,
+            "id": "2026-10-28-QC3-E2",
+            "start": "2026-10-28T09:44:22.600Z",
+            "end": "2026-10-28T10:26:05.225Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.2237072678748517,
-            "start": "2026-10-21T10:13:12.503Z",
-            "end": "2026-10-21T11:26:37.850Z"
+            "hours": 0.914226405776706,
+            "id": "2026-10-28-QC3-E3",
+            "start": "2026-10-28T10:26:05.225Z",
+            "end": "2026-10-28T11:20:56.440Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.4408500857185572,
-            "start": "2026-10-21T11:26:37.850Z",
-            "end": "2026-10-21T11:53:04.910Z"
+            "hours": 0.5535910310475396,
+            "id": "2026-10-28-QC3-E4",
+            "start": "2026-10-28T11:20:56.440Z",
+            "end": "2026-10-28T11:54:09.368Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.6436515026772395,
-            "start": "2026-10-21T11:53:04.910Z",
-            "end": "2026-10-21T12:31:42.055Z"
+            "hours": 0.8664832896044352,
+            "id": "2026-10-28-QC3-E5",
+            "start": "2026-10-28T11:54:09.368Z",
+            "end": "2026-10-28T12:46:08.708Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.37570387741550804,
-            "start": "2026-10-21T12:31:42.055Z",
-            "end": "2026-10-21T12:54:14.589Z"
+            "hours": 0.5084198339274357,
+            "id": "2026-10-28-QC3-E6",
+            "start": "2026-10-28T12:46:08.708Z",
+            "end": "2026-10-28T13:16:39.019Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-04",
+        "shift": "Noche",
+        "moves": 517,
+        "net": 17.239128362035007,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 2.0942064069776083,
+            "id": "2026-10-28-QC4-E1",
+            "start": "2026-10-28T07:31:55.108Z",
+            "end": "2026-10-28T09:37:34.252Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.1275057974133234,
+            "id": "2026-10-28-QC4-E2",
+            "start": "2026-10-28T09:37:34.252Z",
+            "end": "2026-10-28T10:45:13.272Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 0.9443701616565262,
+            "id": "2026-10-28-QC4-E3",
+            "start": "2026-10-28T10:45:13.272Z",
+            "end": "2026-10-28T11:41:53.005Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 0.5085409315823534,
+            "id": "2026-10-28-QC4-E4",
+            "start": "2026-10-28T11:41:53.005Z",
+            "end": "2026-10-28T12:12:23.752Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.3115887585909927,
+            "id": "2026-10-28-QC4-E5",
+            "start": "2026-10-28T12:12:23.752Z",
+            "end": "2026-10-28T13:31:05.472Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.5381600600505149,
+            "id": "2026-10-28-QC4-E6",
+            "start": "2026-10-28T13:31:05.472Z",
+            "end": "2026-10-28T14:03:22.848Z"
+          }
+        ]
+      },
+      {
+        "id": "QC-05",
+        "shift": "Día",
+        "moves": 504,
+        "net": 14.571762636780413,
+        "delays": [
+          {
+            "cause": "Espera de camiones",
+            "type": "terminal",
+            "hours": 1.6156376337341227,
+            "id": "2026-10-28-QC5-E1",
+            "start": "2026-10-28T07:31:55.108Z",
+            "end": "2026-10-28T09:08:51.404Z"
+          },
+          {
+            "cause": "Avería",
+            "type": "terminal",
+            "hours": 1.776072779955787,
+            "id": "2026-10-28-QC5-E2",
+            "start": "2026-10-28T09:08:51.404Z",
+            "end": "2026-10-28T10:55:25.266Z"
+          },
+          {
+            "cause": "Cambio de turno",
+            "type": "terminal",
+            "hours": 1.0387158456639807,
+            "id": "2026-10-28-QC5-E3",
+            "start": "2026-10-28T10:55:25.266Z",
+            "end": "2026-10-28T11:57:44.643Z"
+          },
+          {
+            "cause": "Tapas de escotilla",
+            "type": "terminal",
+            "hours": 1.1867354309945735,
+            "id": "2026-10-28-QC5-E4",
+            "start": "2026-10-28T11:57:44.643Z",
+            "end": "2026-10-28T13:08:56.891Z"
+          },
+          {
+            "cause": "Clima",
+            "type": "externa",
+            "hours": 1.540222983402073,
+            "id": "2026-10-28-QC5-E5",
+            "start": "2026-10-28T13:08:56.891Z",
+            "end": "2026-10-28T14:41:21.693Z"
+          },
+          {
+            "cause": "Solicitud de la línea",
+            "type": "externa",
+            "hours": 0.4846737304724535,
+            "id": "2026-10-28-QC5-E6",
+            "start": "2026-10-28T14:41:21.693Z",
+            "end": "2026-10-28T15:10:26.519Z"
           }
         ]
       }
@@ -1783,161 +2596,128 @@ window.ESCALAS = [
   },
   {
     "id": "ESC-012",
-    "name": "Port Explorer",
-    "ata": "2026-10-23T04:00:00.000Z",
-    "atb": "2026-10-23T05:34:50.306Z",
-    "commence": "2026-10-23T07:03:40.998Z",
-    "complete": "2026-10-24T07:10:18.719Z",
-    "atd": "2026-10-24T07:47:54.709Z",
+    "name": "Costa Serena",
+    "vesselIndex": 6,
+    "sizeClass": "Alimentador",
+    "capacityTEU": 2500,
+    "lengthMeters": 185,
+    "assignmentReason": "Asignación académica según tamaño y carga simulada; en una terminal real depende también de bahías, plan y recursos.",
+    "ata": "2026-10-31T04:00:00.000Z",
+    "atb": "2026-10-31T06:03:23.588Z",
+    "commence": "2026-10-31T06:48:23.080Z",
+    "complete": "2026-11-01T03:07:05.091Z",
+    "atd": "2026-11-01T04:40:18.265Z",
     "trucks": 4,
     "cranes": [
       {
         "id": "QC-01",
         "shift": "Día",
-        "moves": 509,
-        "net": 15.07052708097706,
+        "moves": 398,
+        "net": 12.582229914473578,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.9953462432604283,
-            "start": "2026-10-23T07:03:40.998Z",
-            "end": "2026-10-23T10:03:24.245Z"
+            "hours": 3.378103777706877,
+            "id": "2026-10-31-QC1-E1",
+            "start": "2026-10-31T06:48:23.080Z",
+            "end": "2026-10-31T10:11:04.254Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.4943196056876331,
-            "start": "2026-10-23T10:03:24.245Z",
-            "end": "2026-10-23T10:33:03.795Z"
+            "hours": 1.1369376868086107,
+            "id": "2026-10-31-QC1-E2",
+            "start": "2026-10-31T10:11:04.254Z",
+            "end": "2026-10-31T11:19:17.230Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 0.9110694630071521,
-            "start": "2026-10-23T10:33:03.795Z",
-            "end": "2026-10-23T11:27:43.645Z"
+            "hours": 0.9391419567340104,
+            "id": "2026-10-31-QC1-E3",
+            "start": "2026-10-31T11:19:17.230Z",
+            "end": "2026-10-31T12:15:38.141Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.619776381761767,
-            "start": "2026-10-23T11:27:43.645Z",
-            "end": "2026-10-23T12:04:54.840Z"
+            "hours": 1.0761977168963492,
+            "id": "2026-10-31-QC1-E4",
+            "start": "2026-10-31T12:15:38.141Z",
+            "end": "2026-10-31T13:20:12.452Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.4937413558270781,
-            "start": "2026-10-23T12:04:54.840Z",
-            "end": "2026-10-23T12:34:32.309Z"
+            "hours": 0.5528361892776125,
+            "id": "2026-10-31-QC1-E5",
+            "start": "2026-10-31T13:20:12.452Z",
+            "end": "2026-10-31T13:53:22.663Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.35548140684608365,
-            "start": "2026-10-23T12:34:32.309Z",
-            "end": "2026-10-23T12:55:52.042Z"
+            "hours": 0.2463350482788098,
+            "id": "2026-10-31-QC1-E6",
+            "start": "2026-10-31T13:53:22.663Z",
+            "end": "2026-10-31T14:08:09.469Z"
           }
         ]
       },
       {
         "id": "QC-02",
         "shift": "Noche",
-        "moves": 483,
-        "net": 14.708720497551631,
+        "moves": 377,
+        "net": 12.77475299857236,
         "delays": [
           {
             "cause": "Espera de camiones",
             "type": "terminal",
-            "hours": 2.172736154636368,
-            "start": "2026-10-23T07:03:40.998Z",
-            "end": "2026-10-23T09:14:02.848Z"
+            "hours": 4.230251256199956,
+            "id": "2026-10-31-QC2-E1",
+            "start": "2026-10-31T06:48:23.080Z",
+            "end": "2026-10-31T11:02:11.985Z"
           },
           {
             "cause": "Avería",
             "type": "terminal",
-            "hours": 0.6004555343929677,
-            "start": "2026-10-23T09:14:02.848Z",
-            "end": "2026-10-23T09:50:04.488Z"
+            "hours": 1.2489961497700905,
+            "id": "2026-10-31-QC2-E2",
+            "start": "2026-10-31T11:02:11.985Z",
+            "end": "2026-10-31T12:17:08.371Z"
           },
           {
             "cause": "Cambio de turno",
             "type": "terminal",
-            "hours": 1.2889498749747872,
-            "start": "2026-10-23T09:50:04.488Z",
-            "end": "2026-10-23T11:07:24.708Z"
+            "hours": 1.23439688319777,
+            "id": "2026-10-31-QC2-E3",
+            "start": "2026-10-31T12:17:08.371Z",
+            "end": "2026-10-31T13:31:12.200Z"
           },
           {
             "cause": "Tapas de escotilla",
             "type": "terminal",
-            "hours": 0.6161415957147256,
-            "start": "2026-10-23T11:07:24.708Z",
-            "end": "2026-10-23T11:44:22.818Z"
+            "hours": 0.24603281190124035,
+            "id": "2026-10-31-QC2-E4",
+            "start": "2026-10-31T13:31:12.200Z",
+            "end": "2026-10-31T13:45:57.918Z"
           },
           {
             "cause": "Clima",
             "type": "externa",
-            "hours": 0.7845984235685317,
-            "start": "2026-10-23T11:44:22.818Z",
-            "end": "2026-10-23T12:31:27.372Z"
+            "hours": 0.2688405107129133,
+            "id": "2026-10-31-QC2-E5",
+            "start": "2026-10-31T13:45:57.918Z",
+            "end": "2026-10-31T14:02:05.744Z"
           },
           {
             "cause": "Solicitud de la línea",
             "type": "externa",
-            "hours": 0.2786309824744239,
-            "start": "2026-10-23T12:31:27.372Z",
-            "end": "2026-10-23T12:48:10.443Z"
-          }
-        ]
-      },
-      {
-        "id": "QC-03",
-        "shift": "Día",
-        "moves": 517,
-        "net": 17.716205748047802,
-        "delays": [
-          {
-            "cause": "Espera de camiones",
-            "type": "terminal",
-            "hours": 2.877128132386133,
-            "start": "2026-10-23T07:03:40.998Z",
-            "end": "2026-10-23T09:56:18.659Z"
-          },
-          {
-            "cause": "Avería",
-            "type": "terminal",
-            "hours": 0.6140788769815116,
-            "start": "2026-10-23T09:56:18.659Z",
-            "end": "2026-10-23T10:33:09.343Z"
-          },
-          {
-            "cause": "Cambio de turno",
-            "type": "terminal",
-            "hours": 1.2794868683442473,
-            "start": "2026-10-23T10:33:09.343Z",
-            "end": "2026-10-23T11:49:55.496Z"
-          },
-          {
-            "cause": "Tapas de escotilla",
-            "type": "terminal",
-            "hours": 0.5105857460061087,
-            "start": "2026-10-23T11:49:55.496Z",
-            "end": "2026-10-23T12:20:33.605Z"
-          },
-          {
-            "cause": "Clima",
-            "type": "externa",
-            "hours": 0.8535676941927521,
-            "start": "2026-10-23T12:20:33.605Z",
-            "end": "2026-10-23T13:11:46.449Z"
-          },
-          {
-            "cause": "Solicitud de la línea",
-            "type": "externa",
-            "hours": 0.259424888365902,
-            "start": "2026-10-23T13:11:46.449Z",
-            "end": "2026-10-23T13:27:20.378Z"
+            "hours": 0.30839912317859247,
+            "id": "2026-10-31-QC2-E6",
+            "start": "2026-10-31T14:02:05.744Z",
+            "end": "2026-10-31T14:20:35.981Z"
           }
         ]
       }

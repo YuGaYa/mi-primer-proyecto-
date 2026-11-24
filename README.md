@@ -85,3 +85,12 @@ La escena principal usa `assets/operacion-realista.png`, una recreación con IA 
 - Simulador y plan: esquemas específicos del proceso de decisión y seguimiento.
 
 Archivos: `js/module-illustrations.js`, `assets/resumen-ejecutivo.png`, `assets/causas-demora.png`. Las imágenes fueron generadas con IA para el proyecto. No hay conexión en vivo a una terminal.
+
+## Períodos de demostración y grúas variables (versión actual)
+Esta sección sustituye los supuestos iniciales de octubre fijo y tres grúas fijas. `js/demo-data.js` genera una muestra determinista por fecha. Elegir un rango válido genera de 1 a 12 escalas de demostración distribuidas por el rango; del 1 al 8 de enero se generan ocho escalas. No consulta ni afirma registros históricos reales. El mismo rango produce los mismos resultados. Una fecha inicial posterior a la final muestra una explicación sin generar datos inconsistentes.
+
+La muestra inicial sigue teniendo 12 escalas, pero asigna de 2 a 6 grúas según una clasificación académica de tamaño y capacidad del buque. Es una regla ilustrativa, no una dotación óptima basada en estándares portuarios. La asignación real también depende de bahías, demanda y disponibilidad. Las imágenes de buques son recreaciones con IA, no identifican una flota real.
+
+El modelo base del simulador utiliza el número de grúas de cada escala; la propuesta usa el número ajustado por el usuario. La comparación de transporte considera las camión-horas de cada buque, no una flota base fija de 12. La escena visual muestra hasta tres grúas a la vez; al simular Q4–Q6 cambia el grupo visible sobre la imagen ilustrativa.
+
+Ver `docs/periodos_escalas_y_diagnostico.md`. Ejecutar `node tests/demo-data.cjs` para verificar enero, reproducibilidad, asignaciones variables y coherencia del modelo base.
