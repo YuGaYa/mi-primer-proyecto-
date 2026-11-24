@@ -39,3 +39,6 @@ La escena usa estados independientes por grúa: listo, bajando, sujeto/detenido,
 
 ## Recorrido automático al tocar una grúa
 Solicitud: tocar Q1 y ver cómo busca su contenedor; fotos del buque y cantidad de grúas. Se reemplaza el paso a paso manual por un ciclo automático de siete estados, repetible al finalizar. Cada equipo muestra su contenedor por color/ID y una barra de avance. El número de grúas y las imágenes aparecen junto al buque seleccionado; cuatro miniaturas permiten cambiarlo. La muestra contiene tres equipos por buque, no se inventan asignaciones diferentes. Se mantienen etiquetas de recreación IA. Pruebas de secuencia completa, doble clic, repetición e independencia de KPI superadas.
+
+## Referencia de grúa real y cobertura de módulos
+Se cambia la escena principal a un fondo de apariencia fotográfica inspirado en la referencia del estudiante; se superpone la carga interactiva sobre las tres grúas. Se conserva el recorrido automático. Se añade impacto teórico de demoras en movimientos equivalentes al NCR actual, con advertencia de interpretación. Los cinco módulos quedan numerados en navegación y documentados en docs/cumplimiento_modulos.md. Las pruebas verifican la presencia y lógica de cada módulo; no equivalen a una auditoría visual completa ni certifican una terminal real.

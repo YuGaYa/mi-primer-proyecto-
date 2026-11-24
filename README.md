@@ -73,3 +73,6 @@ Los KPI muestran qué miden y para qué se usan. La escena permite recoger el co
 
 ### Recorrido automático de Q1, Q2 y Q3
 Tocar el dibujo, el botón Q1/Q2/Q3 o «Iniciar recorrido» ejecuta buscar → bajar → sujetar → elevar → trasladar → depositar → completar. No requiere pulsar cada etapa. El ciclo finalizado se puede repetir. Los nombres Q1/Q2/Q3 son las etiquetas visuales de QC-01/QC-02/QC-03. Junto al buque se muestran la imagen ilustrativa y el conteo real de registros de grúas asignadas en la muestra (3 por escala).
+
+### Referencia visual de operación real
+La escena principal usa `assets/operacion-realista.png`, una recreación con IA inspirada en la referencia de grúa STS enviada por el estudiante. Las cargas y controles SVG se superponen a la imagen; no se presenta como fotografía de una terminal identificada ni simulación física certificada. En pantallas pequeñas la escena se desplaza horizontalmente para mantener proporciones. Ver `docs/cumplimiento_modulos.md` para la revisión de los cinco módulos.
